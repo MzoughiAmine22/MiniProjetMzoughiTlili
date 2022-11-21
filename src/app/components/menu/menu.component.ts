@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  remove()
+  {
+    var t=document.querySelector("mat-toolbar");
+    t.removeAttribute("class");
+  }
   constructor() { }
 
   ngOnInit(): void {

@@ -5,6 +5,5 @@ export class Charac
         public releaseDate:Date,
         public platform:string,
         public manufacture:string
-    )
-    {}
+    ){}
 }

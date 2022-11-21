@@ -1,6 +1,6 @@
 import { Charac } from "./charac";
 import { Commentaires } from "./commentaires";
-export class Produit 
+export class Product 
 {
     constructor
     (

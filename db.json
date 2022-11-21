@@ -1,0 +1,238 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "libelle": "PlayStation 5",
+      "price": "1500",
+      "description":"",
+      "category":"console",
+      "platform":"ps5",
+      "availability":false,
+      "photo":"assets/ps5.jpg",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "libelle": "God of War Ragnorok",
+      "price": "70",
+      "description":"Game",
+      "category":"Game",
+      "platform":"ps5",
+      "availability":true,
+      "photo":"assets/god52.jpg",
+      "manufacture":"Santa Monica Studio",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Santa Monica Studio"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description":"",
+      "category":"console",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/ps4.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Sony"
+        }
+      ]
+    }
+  ]
+}
