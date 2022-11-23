@@ -1,9 +1,15 @@
-<body>
+<body style="background:url('assets/loooo.png')" >
+    <br>
+<div class="container">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="search..." [(ngModel)]="searchTerm" (keyup)="search($event)" /><mat-icon class="sea">search</mat-icon>
+    </div>
+</div>
 <div class="container">
     <br>
 <div class="row">
-    <div *ngFor="let p of products,index as i" class="col-3">
-        <app-product [prod]="p" [i]="i" routerLink="../about" ></app-product>
+    <div *ngFor="let p of products | filter:searchKey:'libelle'" class="col-3 ho"  >
+        <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
     </div>
 </div>
 </div>

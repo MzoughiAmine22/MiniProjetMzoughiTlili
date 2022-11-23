@@ -1,42 +1,49 @@
-.example-card {
-    max-width: 400px;
-    text-align: center;
-  }
-  img{border-radius: 5px;}
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
+
+ body
+ {
+  animation: trans 1.5s;width:auto;height:auto;
+ }
+
+
+ img{width:250px;height:250px;border-radius: 5px;}
+
+
+.c1{animation: transl 5s alternate infinite}
+
+
+.btnn:hover
+{
+  animation: btnAni 0.75s alternate infinite;
+}
+
+
+.c4
+ {
+  filter: blur(2px);-webkit-filter: blur(2px);
+ }
+
+
+ .c5
+ {
+   font-size: 50px;font-family: monospace;font-weight: 500;
+ }
+
+
+@keyframes trans 
+ {
+    from{opacity: 0;}
+    to{opacity: 1;}
+ }
+
+
+ @keyframes btnAni
+ {
+  0%{transform: translateY(0px);}
+  100%{transform: translateY(20px);}
+ } 
+
+ 
+ 
   
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
-  }
+
+

@@ -1,10 +1,8 @@
 <div style="border: 0.1px solid #EF5F0D;text-align: center;border-radius: 5px;" >
-    <mat-card style="border-radius: 5px;background:rgb(27, 26, 26);color:whitesmoke">
-        
+    <mat-card style="border-radius: 5px;background:url('assets/loooo.png');color:whitesmoke;">
             <mat-card-title style="text-align:center">{{prod.libelle}}</mat-card-title>
-        
         <mat-card-content><img [src]="prod.photo"></mat-card-content>
-        <mat-card-footer >{{prod.price}} - {{prod.category}}</mat-card-footer>
+        <mat-card-footer >{{prod.price}} - {{prod.category}} - <span *ngFor="let p of prod.comments">{{p.name}} - {{p.message}}</span></mat-card-footer>
     </mat-card>
 </div>
 <br>

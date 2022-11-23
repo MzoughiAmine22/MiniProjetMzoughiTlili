@@ -1,4 +1,57 @@
 
-<body style="background:rgb(27, 26, 26)">
-
+<body style="background:url('assets/loooo.png')"  >
+    <br>
+    <div class="container"  style="border-radius: 5px;" >
+        <br>
+        <div class="row">
+        <div class="col-12" style="border: 0.1px solid #EF5F0D;border-radius: 50px;height:500px;background: url('assets/rr.png');color:whitesmoke;" >
+            <br>
+            <br>
+            <br>
+                   <div id="di" (mouseleave)="offm()" (mouseover)="onm()">
+                    <span class="c5" style="margin-left:50px;">
+                        WELCOME TO <span style="color:#EF5F0D">GAMING ON </span>STORE
+                    </span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <span style="font-size:20px;margin-left:50px;margin-top: 800px;position: relative;">
+                        <span style="color:#EF5F0D;">Browse</span> Our Products Here
+                    </span>
+                    <br>
+                <button class="btnn" routerLink="/list" style="font-size:30px ;border:1px solid #EF5F0D;margin-top:50px;margin-left: 50px;padding: 15px 32px;border-radius: 5px;background: #EF5F0D;color:whitesmoke;">
+                    Browse
+                </button>
+        </div> 
+        <br>        
+    </div> 
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let p of products | slice:0:12" class="col-3" >
+                <div style="border: 0.1px solid #EF5F0D;text-align: center;border-radius: 5px;">
+        <mat-card style="border-radius: 5px;background:url('assets/loooo.png');color:whitesmoke;">
+                <mat-card-title style="text-align:center">{{p.libelle}}</mat-card-title>
+            <mat-card-content><img [src]="p.photo"></mat-card-content>
+            <mat-card-footer >{{p.price}} - {{p.category}} - <span *ngFor="let p of p.comments">{{p.name}} - {{p.message}}</span></mat-card-footer>
+        </mat-card>
+        </div>
+        <br>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div style="color:white;background: url('assets/ga.png');width:1518px;height:200px;border-top:2px solid #f4511e;" >
+        <div style="text-align:center">
+            <mat-icon>email</mat-icon>
+            <mat-icon>facebook</mat-icon>
+        </div>
+        <div style="font-style:monospace;font-weight: 500;font-size: 40px;" >
+            
+            
+        </div>
+    </div>
 </body>

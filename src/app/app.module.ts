@@ -26,6 +26,8 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { ErrorComponent } from './components/error/error.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductComponent } from './components/product/product.component';
+import { DetailedProductComponent } from './components/detailed-product/detailed-product.component';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { ProductComponent } from './components/product/product.component';
     ProductListComponent,
     ErrorComponent,
     AboutComponent,
-    ProductComponent
+    ProductComponent,
+    DetailedProductComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
@@ -63,4 +67,4 @@ import { ProductComponent } from './components/product/product.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
