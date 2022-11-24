@@ -106,14 +106,14 @@
     },
     {
       "id": 5,
-      "libelle": "PlayStation 4",
-      "price": "800",
-      "description":"",
-      "category":"console",
-      "platform":"ps4",
+      "libelle": "Elden Ring",
+      "price": "180",
+      "description":"Best Game Ever",
+      "category":"Game",
+      "platform":"ps5",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/ER2.png",
+      "manufacture":"FromSoftware",
       "comments":
       [
         {
@@ -124,22 +124,22 @@
       "characteristics":
       [
         {
-          "releaseDate":"",
-          "platform":"ps4",
-          "manufacture":"Sony"
+          "releaseDate":"2022",
+          "platform":"ps5",
+          "manufacture":"FromSoftware"
         }
       ]
     },
     {
       "id": 7,
-      "libelle": "PlayStation 4",
-      "price": "800",
-      "description":"",
-      "category":"console",
-      "platform":"ps4",
+      "libelle": "Call of Duty Cold War",
+      "price": "130",
+      "description":"FPS",
+      "category":"Game",
+      "platform":"Xbox Series X",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/COD-xbox.png",
+      "manufacture":"Activision",
       "comments":
       [
         {
@@ -151,21 +151,21 @@
       [
         {
           "releaseDate":"",
-          "platform":"ps4",
-          "manufacture":"Sony"
+          "platform":"Xbox Series X",
+          "manufacture":"Activision"
         }
       ]
     },
     {
       "id": 8,
-      "libelle": "PlayStation 4",
-      "price": "800",
+      "libelle": "Elden Ring",
+      "price": "90",
       "description":"",
-      "category":"console",
+      "category":"Game",
       "platform":"ps4",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/eldenRing.png",
+      "manufacture":"FromSoftware",
       "comments":
       [
         {
@@ -178,20 +178,20 @@
         {
           "releaseDate":"",
           "platform":"ps4",
-          "manufacture":"Sony"
+          "manufacture":"FromSoftware"
         }
       ]
     },
     {
       "id": 9,
-      "libelle": "PlayStation 4",
-      "price": "800",
+      "libelle": "Call of Duty Cold War",
+      "price": "130",
       "description":"",
-      "category":"console",
-      "platform":"ps4",
+      "category":"Game",
+      "platform":"ps5",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/codCW.png",
+      "manufacture":"Activision",
       "comments":
       [
         {
@@ -203,21 +203,21 @@
       [
         {
           "releaseDate":"",
-          "platform":"ps4",
-          "manufacture":"Sony"
+          "platform":"ps5",
+          "manufacture":"Activision"
         }
       ]
     },
     {
       "id": 10,
-      "libelle": "PlayStation 4",
-      "price": "800",
+      "libelle": "codMW1",
+      "price": "80",
       "description":"",
-      "category":"console",
+      "category":"Game",
       "platform":"ps4",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/codMW1.png",
+      "manufacture":"Activision",
       "comments":
       [
         {
