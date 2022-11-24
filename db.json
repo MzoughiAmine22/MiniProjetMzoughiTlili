@@ -39,7 +39,7 @@
       "comments":
       [
         {
-          "name":"user",
+          "name":"amine",
           "message":""
         }
       ],
@@ -80,27 +80,27 @@
     },
     {
       "id": 4,
-      "libelle": "PlayStation 4",
-      "price": "800",
-      "description":"",
-      "category":"console",
-      "platform":"ps4",
+      "libelle": "Demon Souls Remake",
+      "price": "120",
+      "description":"My dream Game",
+      "category":"Game",
+      "platform":"ps5",
       "availability":true,
-      "photo":"assets/ps4.png",
-      "manufacture":"Sony",
+      "photo":"assets/demon's souls ps5.png",
+      "manufacture":"FromSoftware",
       "comments":
       [
         {
-          "name":"user",
-          "message":""
+          "name":"amine",
+          "message":"one of the best games ever created"
         }
       ],
       "characteristics":
       [
         {
-          "releaseDate":"",
-          "platform":"ps4",
-          "manufacture":"Sony"
+          "releaseDate":"2020",
+          "platform":"ps5",
+          "manufacture":"FromSoftware"
         }
       ]
     },

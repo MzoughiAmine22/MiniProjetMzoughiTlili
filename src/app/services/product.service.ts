@@ -10,10 +10,10 @@ const URL = 'http://localhost:3500/products';
 })
 export class ProductService {
 
-  public search = new BehaviorSubject<string>("");
   constructor(private http:HttpClient) { }
   getProducts():Observable<Product[]>
   {
     return(this.http.get<Product[]>(URL));
   }
+  
 }
