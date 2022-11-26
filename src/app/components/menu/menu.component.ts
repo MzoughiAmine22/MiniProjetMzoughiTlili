@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,  HostBinding,  HostListener, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,15 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
+  
 
   remove()
   {
+
     var t=document.querySelector("mat-toolbar");
     t.removeAttribute("class");
+
   }
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+
+    
 
 }

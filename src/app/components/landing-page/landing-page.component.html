@@ -31,27 +31,23 @@
     <br>
     <div class="container">
         <div class="row">
-            <div *ngFor="let p of products | slice:0:12" class="col-3" >
-                <div style="border: 0.1px solid #EF5F0D;text-align: center;border-radius: 5px;">
-        <mat-card style="border-radius: 5px;background:url('assets/loooo.png');color:whitesmoke;">
-                <mat-card-title style="text-align:center">{{p.libelle}}</mat-card-title>
-            <mat-card-content><img [src]="p.photo"></mat-card-content>
-            <mat-card-footer >{{p.price}} - {{p.category}} - <span *ngFor="let p of p.comments">{{p.name}} - {{p.message}}</span></mat-card-footer>
-        </mat-card>
-        </div>
+            <div *ngFor="let p of products|slice:0:12" class="col-3 ho"  >
+                <app-product [prod]="p" [routerLink]="['../list/detailPro',p.id]" ></app-product>
+            </div>
         <br>
         </div>
     </div>
-    </div>
     <br>
     <div style="color:white;background: url('assets/ga.png');width:1518px;height:200px;border-top:2px solid #f4511e;" >
-        <div style="text-align:center">
-            <mat-icon>email</mat-icon>
-            <mat-icon>facebook</mat-icon>
+        <div class="social">
+            <a href="#"><mat-icon style="font-size: 30px;" >email</mat-icon></a>
+            <a href="#"><mat-icon style="font-size: 30px;">facebook</mat-icon></a>
+            <a href="#"><mat-icon style="font-size: 30px;">phone</mat-icon></a>
+            <a href="#"><mat-icon style="font-size: 30px;">tiktok</mat-icon></a>
         </div>
-        <div style="font-style:monospace;font-weight: 500;font-size: 40px;" >
-            
-            
+        <span style="margin-left:160px;font-size:30px;position: relative;top: -44px;color:black;font-weight: 700;">GAMING ON STORE</span>
+        <div style="font-style:monospace;font-weight: 500;font-size:30px;" >
+            <img src="assets/gam.png" style="height:180px;width:160px;margin-top:-150px ;margin-right: 100px;position: relative;top:-28px ;"  />
         </div>
     </div>
 </body>

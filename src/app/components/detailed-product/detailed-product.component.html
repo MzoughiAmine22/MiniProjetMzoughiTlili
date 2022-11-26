@@ -1,3 +1,62 @@
-<body style="background:url('assets/loooo.png')">
-    {{product.id}} - {{product.price}} - <span *ngFor="let p of product.comments" >{{p.name}} - {{p.message}}</span>
+<body style="background:url('assets/loooo.png');font-family: monospace;">
+    <br>
+    <div class="container">
+    <div class="div1" style="background-image: url('assets/looooo.png')"  >
+        <span style="margin-left:40px;position:relative;top:40px"><img [src]="product.photo" /></span>
+    </div>
+    <div class="div2" style="background-image: url('assets/looooo.png')" >
+            <br>
+            <div class="sdiv1">{{product.libelle | uppercase}}</div>
+            <br>
+            <br>
+            <div class="container sdiv2" style="margin-left:40px">
+                Standard Edition {{product.platform}}
+                <br>
+                <br>
+                Price : {{product.price | number:'.3'}} TND
+                <br>
+                <br>
+                <div [ngClass]="{'bg':true,'bg-success':product.availability,'bg-danger':!product.availability}" style="width:170px;border-radius:5px">
+                    &nbsp; In-Stock
+                </div>
+                <br>
+                <br>
+                Add to cart
+            </div>
+    </div>
+    <div class="demo-button-container sdiv3">
+        <button mat-raised-button  class="demo-button" (click)="clickChar()">
+            Description
+          </button>
+          <button mat-raised-button class="demo-button" (click)="clickDesc()">
+            Product Details
+          </button>
+    </div>
+    <div class="div3" style="color: white;background-image: url('assets/looooo.png')" *ngIf="noDiv1">
+        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;">{{product.description}}</div>
+    </div>
+    <div class="div4" style="color: white;background-image: url('assets/looooo.png')" *ngIf="noDiv2">
+        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;"><div *ngFor="let p of product.characteristics" >{{p.releaseDate}} | {{p.platform}} | {{p.manufacture}}</div></div>
+    </div>
+    <br>
+    <div class="div5" style="background-image: url('assets/looooo.png')">
+        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;" >
+        Reviews  <br><br>
+    <span *ngFor="let p of product.comments" >{{p.name}} : {{p.message}}</span>
+<br>
+<br>
+        <form>
+            Add a review <br><br>
+            <mat-form-field appearance="outline" style="width: 400px;"  >
+                <mat-label style="color:white">Comment</mat-label>
+                <input matInput type="text">
+            </mat-form-field>&nbsp;
+            <mat-form-field appearance="outline" style="width: 400px;"  >
+                <mat-label style="color:white">Name</mat-label>
+                <input matInput type="text">
+            </mat-form-field>
+        </form>
+        </div>
+    </div>
+    </div>
 </body>

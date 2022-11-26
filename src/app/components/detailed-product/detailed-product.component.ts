@@ -10,6 +10,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetailedProductComponent implements OnInit {
 
+  noDiv1:boolean;
+  noDiv2:boolean;
   constructor(private productService:ProductService,private activatedRoute:ActivatedRoute) { }
   product:Product;
   idd :number =0;
@@ -22,4 +24,14 @@ export class DetailedProductComponent implements OnInit {
     
   }
 
+  clickDesc()
+  {
+    this.noDiv1=false;
+    this.noDiv2=true;
+  }
+  clickChar()
+  {
+    this.noDiv1=true;
+    this.noDiv2=false;
+  }
 }

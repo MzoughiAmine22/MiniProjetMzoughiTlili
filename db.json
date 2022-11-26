@@ -8,7 +8,7 @@
       "category":"console",
       "platform":"ps4",
       "availability":true,
-      "photo":"assets/ps4.png",
+      "photo":"assets/ps4_slim.png",
       "manufacture":"Sony",
       "comments":
       [
@@ -34,7 +34,7 @@
       "category":"console",
       "platform":"ps5",
       "availability":false,
-      "photo":"assets/ps5.jpg",
+      "photo":"assets/ps5_.png",
       "manufacture":"Sony",
       "comments":
       [
@@ -56,23 +56,23 @@
       "id": 3,
       "libelle": "God of War Ragnorok",
       "price": "70",
-      "description":"Game",
+      "description":"God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released worldwide on November 9, 2022, for the PlayStation 4 and PlayStation 5, marking the first cross-gen release in the God of War series.",
       "category":"Game",
       "platform":"ps5",
       "availability":true,
-      "photo":"assets/god52.jpg",
+      "photo":"assets/godrag.png",
       "manufacture":"Santa Monica Studio",
       "comments":
       [
         {
-          "name":"user",
-          "message":""
+          "name":"Amine",
+          "message":"I recommend this game !"
         }
       ],
       "characteristics":
       [
         {
-          "releaseDate":"",
+          "releaseDate":"2022-11-09",
           "platform":"ps5",
           "manufacture":"Santa Monica Studio"
         }
@@ -80,7 +80,7 @@
     },
     {
       "id": 4,
-      "libelle": "Demon Souls Remake",
+      "libelle": "Demon's Souls Remake",
       "price": "120",
       "description":"My dream Game",
       "category":"Game",
@@ -92,7 +92,7 @@
       [
         {
           "name":"amine",
-          "message":"one of the best games ever created"
+          "message":"one of the best "
         }
       ],
       "characteristics":
@@ -132,14 +132,14 @@
     },
     {
       "id": 7,
-      "libelle": "Call of Duty Cold War",
+      "libelle": "Forza Horizon 5",
       "price": "130",
-      "description":"FPS",
+      "description":"Racing",
       "category":"Game",
       "platform":"Xbox Series X",
       "availability":true,
-      "photo":"assets/COD-xbox.png",
-      "manufacture":"Activision",
+      "photo":"assets/fh5.png",
+      "manufacture":"Microsoft",
       "comments":
       [
         {
@@ -150,9 +150,9 @@
       "characteristics":
       [
         {
-          "releaseDate":"",
+          "releaseDate":"2022-11-09",
           "platform":"Xbox Series X",
-          "manufacture":"Activision"
+          "manufacture":"Microsoft"
         }
       ]
     },
@@ -196,7 +196,7 @@
       [
         {
           "name":"Yosra",
-          "message":""
+          "message":"nice"
         }
       ],
       "characteristics":
@@ -210,7 +210,7 @@
     },
     {
       "id": 10,
-      "libelle": "codMW1",
+      "libelle": "Call of Duty Modern Warefare ",
       "price": "80",
       "description":"",
       "category":"Game",
@@ -228,9 +228,320 @@
       "characteristics":
       [
         {
-          "releaseDate":"",
+          "releaseDate":"9-11-2022",
           "platform":"ps4",
           "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "libelle": "Red Dead Redemption 2 ",
+      "price": "100",
+      "description":"Horse",
+      "category":"Game",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/rdr2.png",
+      "manufacture":"Rockstar Games",
+      "comments":
+      [
+        {
+          "name":"Amine",
+          "message":"game of the year"
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Rockstar Games"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "libelle": "Spider-Man Miles Morales",
+      "price": "120",
+      "description":"",
+      "category":"Game",
+      "platform":"ps5",
+      "availability":true,
+      "photo":"assets/spi.png",
+      "manufacture":"Insomniac",
+      "comments":
+      [
+        {
+          "name":"Ismail",
+          "message":"nice"
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Insomniac"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "libelle": "The Last of Us",
+      "price": "130",
+      "description":"",
+      "category":"Game",
+      "platform":"ps5",
+      "availability":true,
+      "photo":"assets/TLOU.png",
+      "manufacture":"Naughty Dog",
+      "comments":
+      [
+        {
+          "name":"Ismail",
+          "message":"nice"
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Naughty Dog"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "libelle": "Garidians of the galaxies",
+      "price": "100",
+      "description":"",
+      "category":"Game",
+      "platform":"ps5",
+      "availability":true,
+      "photo":"assets/got.png",
+      "manufacture":"Sony",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Sony"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "libelle": "Ghost of Tsushima",
+      "price": "100",
+      "description":"",
+      "category":"Game",
+      "platform":"ps5",
+      "availability":true,
+      "photo":"assets/GOS.png",
+      "manufacture":"Sucker Punch Productions",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps5",
+          "manufacture":"Sucker Punch Productions"
+        }
+      ]
+    },{
+      "id": 15,
+      "libelle": "Need for Speed Heat",
+      "price": "100",
+      "description":"",
+      "category":"Game",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/nfs.png",
+      "manufacture":"Ghost",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Ghost"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "libelle": "FIFA23",
+      "price": "100",
+      "description":"",
+      "category":"Game",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/fifa.png",
+      "manufacture":"EA",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"EA"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "libelle": "BATTLEFIELD 2042",
+      "price": "100",
+      "description":"",
+      "category":"Game",
+      "platform":"Xbox Series X",
+      "availability":true,
+      "photo":"assets/battlefield.png",
+      "manufacture":"Dice",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"Xbox Series X",
+          "manufacture":"Dice"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "libelle": "Gotham Knights",
+      "price": "120",
+      "description":"",
+      "category":"Game",
+      "platform":"Xbox Series X",
+      "availability":true,
+      "photo":"assets/goth.png",
+      "manufacture":"DC",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"Xbox Series X",
+          "manufacture":"DC"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "libelle": "Saints Row",
+      "price": "90",
+      "description":"",
+      "category":"Game",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/sr.png",
+      "manufacture":"Volitition",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Volitition"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "libelle": "TAD The Lost Explorer",
+      "price": "80",
+      "description":"",
+      "category":"Game",
+      "platform":"ps4",
+      "availability":true,
+      "photo":"assets/tad.png",
+      "manufacture":"Selectar Play",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"ps4",
+          "manufacture":"Selectar Play"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "libelle": "Elden Ring",
+      "price": "120",
+      "description":"",
+      "category":"Game",
+      "platform":"Xbox Series X",
+      "availability":false,
+      "photo":"assets/eld.png",
+      "manufacture":"FromSoftware",
+      "comments":
+      [
+        {
+          "name":"user",
+          "message":""
+        }
+      ],
+      "characteristics":
+      [
+        {
+          "releaseDate":"",
+          "platform":"Xbox Series X",
+          "manufacture":"FromSoftware"
         }
       ]
     }

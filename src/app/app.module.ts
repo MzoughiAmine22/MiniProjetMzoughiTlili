@@ -28,6 +28,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ProductComponent } from './components/product/product.component';
 import { DetailedProductComponent } from './components/detailed-product/detailed-product.component';
 import { FilterPipe } from './filter.pipe';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FilterPipe } from './filter.pipe';
     AboutComponent,
     ProductComponent,
     DetailedProductComponent,
-    FilterPipe
+    FilterPipe,
+    CartComponent
   ],
   imports: [
     BrowserModule,

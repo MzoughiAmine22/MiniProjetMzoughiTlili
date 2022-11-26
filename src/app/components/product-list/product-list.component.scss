@@ -1,8 +1,18 @@
-body{animation: trans 1.5s;height:1500px;width: auto;background:rgb(27, 26, 26)}
+body{animation: trans 1.5s;height:3000px;width: auto;background:rgb(27, 26, 26)}
+
+
 .c1{animation: transl 5s alternate infinite}
+
+
+.c2{font-size:20px;padding:30px;font-family: monospace;font-weight: 500;border-radius: 5px;}
+
+
+.c2:hover{background-color:#f4511e;transition: 0.7s;}
+
+
 @keyframes trans 
 {
-    from{opacity: 0;}
+    from{opacity: 0.5;}
     to{opacity: 1;}
 }
 @keyframes transl 
@@ -20,5 +30,5 @@ body{animation: trans 1.5s;height:1500px;width: auto;background:rgb(27, 26, 26)}
     position: absolute;z-index: 10;
     right: 41%;
     color:#f4511e;
-    top:163px
+    top: 298px;
 }

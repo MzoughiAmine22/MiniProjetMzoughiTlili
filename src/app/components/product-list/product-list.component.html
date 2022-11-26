@@ -1,6 +1,16 @@
 <body style="background:url('assets/loooo.png')" >
     <br>
 <div class="container">
+    <br>
+    <mat-toolbar style="background:url('assets/loooo.png');">
+        <div  style="border-bottom: solid;border-color: #f4511e;font-size:35px ;display: flex;color:rgb(255, 255, 255);font-family: monospace;font-weight: 500;height:100px" >
+            <button mat-button ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">stadia_controller</span>GAMES</span></button>
+            <button mat-button><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">videogame_asset</span>CONSOLES</span></button>
+            <button mat-button><span class="c2" ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">desktop_windows</span>MONITORS</span></button>
+        </div>
+    </mat-toolbar>
+    <br>
+    <br>
     <div class="form-group">
         <input type="text" class="form-control" placeholder="search..." [(ngModel)]="searchTerm" (keyup)="search($event)" /><mat-icon class="sea">search</mat-icon>
     </div>

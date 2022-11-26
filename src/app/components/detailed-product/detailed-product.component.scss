@@ -1,1 +1,38 @@
-body{height:1000px;color: white;}
+body{height: auto;color: white;animation: appear .4s ;}
+
+img{width: 400px;height: 400px;}
+
+.div1{width: 500px;height: 500px;border: 1px solid #f4511e;position: relative;border-radius: 5px;}
+
+.div2{position: relative;width: 800px;height: 500px;border: 1px solid #f4511e;left:40%;bottom: 500px;border-radius: 5px;}
+
+.div3{position: relative;bottom: 480px;border:1px solid #f4511e;border-radius: 5px;width: 1327px;height: auto;font-size: 25px;animation: appear .5s;}
+
+.sdiv1{text-align: center;font-size: 30px;}
+
+.sdiv2{font-size: 25px;}
+
+.demo-button-container {padding-bottom: 16px;}
+
+.demo-button + .demo-button{margin-left: 8px;}
+
+.sdiv3{position: relative;bottom: 480px;}
+
+.div4{position: relative;bottom: 480px;border:1px solid #f4511e;border-radius: 5px;width: 1327px;height: auto;font-size: 25px;animation: appear 1.5s;}
+
+.div5{position: relative;bottom: 480px;border:1px solid #f4511e;border-radius: 5px;width: 1327px;height: auto;font-size: 25px;}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #f4511e!important;}
+
+    ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+        background-color: #f4511e!important;
+    }
+
+    
+
+@keyframes appear 
+{
+    from{opacity: 0;}
+    to{opacity: 1;}   
+}
