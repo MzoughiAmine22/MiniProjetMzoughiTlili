@@ -19,7 +19,7 @@
     <br>
 <div class="row">
     <div *ngFor="let p of products | filter:searchKey:'libelle'" class="col-3 ho"  >
-        <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
+        <app-product [prod]="p" [routerLink]="['../detailPro',p.id]" ></app-product>
     </div>
 </div>
 </div>

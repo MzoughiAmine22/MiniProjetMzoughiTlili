@@ -1,6 +1,54 @@
-<body style="background:url('assets/loooo.png')">
+
+<body style="background:url('assets/loooo.png');color: white;">
+    <ng-container *ngIf="products.length !=0" >
+        <br>
+        <div class="container">
+            <div class="card-table">
+            <div class="cart-product" style="border-radius: 5px ;">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>P.No</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let p of products;index as i" >
+                            <td>{{i+1}}</td>
+                            <td>{{p.libelle}}Iphone</td>
+                            <td><img [src]="p.photo"/></td>
+                            <td>{{p.description}}</td>
+                            <td>{{p.price}}</td>
+                            <td>{{p.quantity}}</td>
+                            <td>{{p.total}}</td>
+                            <td>
+                                <button (click)="removeItem(p)" class="btn btn-danger"><span class="material-symbols-outlined">delete</span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="products.length==0" >
+    <br>
     <div class="container">
-        Cart is in the works !
+        <mat-card class="car" style="background:#f4511e;color: white;">
+            <div class="cent">
+            <img src="assets/cc.png" width="100px" height="100px" style="position: relative;top:-15px;right:6px" />
+            <br>
+            <h3>Your cart is empty !</h3>
+                <h4>Fill it Up !</h4>
+                &nbsp;<button mat-raised-button color="primary" routerLink="../list">Show Now</button>
+            </div>
+        </mat-card>
     </div>
-   
+    </ng-container>
 </body>

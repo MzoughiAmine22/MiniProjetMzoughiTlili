@@ -28,7 +28,7 @@ export class LandingPageComponent implements OnInit {
   constructor(private proSer:ProductService) { }
 
   ngOnInit(): void {
-    this.proSer.getProducts().subscribe(data => { this.products = data,console.log(data)});
+    this.proSer.getProducts().subscribe(data => { this.products = data});
   }
 
 }

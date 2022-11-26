@@ -1,7 +1,38 @@
-body{animation: trans 1.5s;background:rgb(27, 26, 26);width: auto;height: 4000px;color:white;font-family: monospace;}
+body{animation: trans 1.5s;background:rgb(27, 26, 26);height: 621px;color:white;font-family: monospace;}
+
+
 .c1{animation: transl 5s alternate infinite}
+
+
 @keyframes trans 
 {
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+.car{height: 60vh;margin: 25px;padding: 25px;}
+
+.cent{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mat-primary{background-color: black;}
+
+.mat-card{border-radius: 10px;}
+
+.card-table
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(27, 26, 26);
+    border-radius: 5px;
 }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/classes/product';
 import { ProductService } from 'src/app/services/product.service';
 import { ActivatedRoute } from '@angular/router';
+import { CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-detailed-product',
@@ -12,17 +13,25 @@ export class DetailedProductComponent implements OnInit {
 
   noDiv1:boolean;
   noDiv2:boolean;
-  constructor(private productService:ProductService,private activatedRoute:ActivatedRoute) { }
+  constructor(private productService:ProductService,private activatedRoute:ActivatedRoute,private cartService:CartService ) { }
   product:Product;
-  idd :number =0;
+
+  idd :number;
   ngOnInit(): void {
     this.idd=this.activatedRoute.snapshot.params['id'];
-    this.productService.getProducts().subscribe
-    (
-      data =>{data.find(elt =>{if(elt.id==this.idd){this.product=elt;}})}
-    );
     
+    this.productService.getProduitById(this.idd).subscribe(data=>{
+    
+      {this.product=data;
+
+    } })
   }
+  addtocart(item:any)
+    {
+      this.cartService.addtoCart(item);
+      console.log(item);
+    }
+
 
   clickDesc()
   {

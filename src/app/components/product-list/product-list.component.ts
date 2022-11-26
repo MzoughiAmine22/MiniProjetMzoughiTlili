@@ -14,18 +14,13 @@ export class ProductListComponent implements OnInit {
   search(event:any)
   {
     this.searchTerm = (event.target as HTMLInputElement).value;
-    console.log(this.searchTerm);
-   
     this.searchKey=this.searchTerm;
-
   }
   constructor(private fb:FormBuilder,private productService:ProductService) { }
   products:Product[];
   ngOnInit(): void 
   {
-    this.productService.getProducts().subscribe(data => { this.products = data,console.log(data)});
-   
-
+    this.productService.getProducts().subscribe(data => { this.products = data});
   }
-
+  
 }
