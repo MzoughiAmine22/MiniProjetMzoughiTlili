@@ -18,9 +18,31 @@ export class ProductListComponent implements OnInit {
   }
   constructor(private fb:FormBuilder,private productService:ProductService) { }
   products:Product[];
+  filterCategory:Product[];
   ngOnInit(): void 
   {
-    this.productService.getProducts().subscribe(data => { this.products = data});
+    this.productService.getProducts().subscribe(data => {
+       this.products = data;
+       this.filterCategory=data;
+       this.products.forEach((a:any)=>{
+        if(a.category=='Game')
+        {
+          a.category='Game';
+        }
+        else
+        {
+          a.category='Console';
+        }
+       })
+      });
   }
-  
+  filter(category:string)
+  {
+    this.filterCategory=this.products.filter((a:any)=>{
+      if(a.category== category || category == '')
+      {
+        return(a);
+      }
+    })
+  }
 }

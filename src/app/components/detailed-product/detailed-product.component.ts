@@ -14,18 +14,19 @@ export class DetailedProductComponent implements OnInit {
   noDiv1:boolean;
   noDiv2:boolean;
   constructor(private productService:ProductService,private activatedRoute:ActivatedRoute,private cartService:CartService ) { }
+
   product:Product;
 
-  idd :number;
-  ngOnInit(): void {
-    this.idd=this.activatedRoute.snapshot.params['id'];
-    
-    this.productService.getProduitById(this.idd).subscribe(data=>{
-    
-      {this.product=data;
-
-    } })
+  
+  ngOnInit(): void 
+  {
+    var idd = 0;
+    idd=this.activatedRoute.snapshot.params['id'];
+    //this.productService.getProducts().subscribe(data=>{console.log(data)});
+    this.productService.getProduitById(idd).subscribe(data=>{
+      {this.product=data;}})
   }
+
   addtocart(item:any)
     {
       this.cartService.addtoCart(item);

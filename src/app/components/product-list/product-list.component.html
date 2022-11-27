@@ -4,8 +4,8 @@
     <br>
     <mat-toolbar style="background:url('assets/loooo.png');">
         <div  style="border-bottom: solid;border-color: #f4511e;font-size:35px ;display: flex;color:rgb(255, 255, 255);font-family: monospace;font-weight: 500;height:100px" >
-            <button mat-button ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">stadia_controller</span>GAMES</span></button>
-            <button mat-button><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">videogame_asset</span>CONSOLES</span></button>
+            <button mat-button (click)="filter('Game')" ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px"  >stadia_controller</span>GAMES</span></button>
+            <button mat-button (click)="filter('Console')"><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">videogame_asset</span>CONSOLES</span></button>
             <button mat-button><span class="c2" ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">desktop_windows</span>MONITORS</span></button>
         </div>
     </mat-toolbar>
@@ -18,8 +18,8 @@
 <div class="container">
     <br>
 <div class="row">
-    <div *ngFor="let p of products | filter:searchKey:'libelle'" class="col-3 ho"  >
-        <app-product [prod]="p" [routerLink]="['../detailPro',p.id]" ></app-product>
+    <div *ngFor="let p of filterCategory | filter:searchKey:'libelle'" class="col-3 ho"  >
+        <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
     </div>
 </div>
 </div>

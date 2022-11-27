@@ -17,9 +17,9 @@ export class MenuComponent implements OnInit {
 
   }
   constructor(private cartService:CartService) { }
-  public total:number = 0;
-  product : any[];
+  
   ngOnInit(): void {
+    
     this.cartService.getProducts().subscribe(res => {
 
     })

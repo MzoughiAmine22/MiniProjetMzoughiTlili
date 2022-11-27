@@ -1,10 +1,11 @@
 
 <mat-toolbar style="background:url('assets/loooo.png');height:17%" class="nav" onload="remove()" >
   <div class="c1" style="border-bottom-style:solid;border-color: #f4511e;" >
-  <span routerLink="../landing" class="c2 ho"  ><img src="assets/gam.png" />GAMING ON STORE</span>
-  <button mat-button ><span class="c2" routerLink="/landing" >HOME</span></button>
-  <button mat-button><span class="c2" routerLink="/about" >ABOUT US</span></button>
-  <button mat-button><span class="c2" routerLink="/list">PRODUCT LIST</span></button>
-  <button mat-button><span class="c2" routerLink="/cart" ><mat-icon style="position:relative;right:20px;top:5px">shopping_cart</mat-icon>ACCESS CART</span></button>
+  <span routerLink="../landing" class="c2 ho"  routerLinkActive="actif" ><img src="assets/gam.png" />GAMING ON STORE</span>
+  <button mat-button ><span class="c2" routerLinkActive="actif" routerLink="/landing" >HOME</span></button>
+  <button mat-button><span class="c2" routerLinkActive="actif" routerLink="/about" >ABOUT US</span></button>
+  <button mat-button><span class="c2" routerLinkActive="actif" routerLink="/list">PRODUCT LIST</span></button>
+  <button mat-button><span class="c2" routerLinkActive="actif" routerLink="/cart" ><mat-icon style="position:relative;right:20px;top:5px">shopping_cart</mat-icon>ACCESS CART</span></button>
+  <button mat-button><span class="c2" routerLinkActive="actif" routerLink="/admin">ADMIN</span></button>
   </div>
 </mat-toolbar>
