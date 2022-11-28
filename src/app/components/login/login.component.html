@@ -1,24 +1,31 @@
-<body style="background: url('assets/loooo.png');">
-<div class="container" >
+<body style="background:url('assets/loooo.png');height:621px;font-family: monospace;" >
+<div class="container">
     <div class="row">
         <div class="col-md-6">
-            <div class="card">
-                <div class="text-center">
+            <div class="card" style="background: url('assets/ga2.png');">
+                <div class="">
+                  <div style="text-align:center">
                     <h1>Login</h1>
-                    <h6>Please enter email and password !!</h6>
+                  </div>
                     <form [formGroup]="loginForm" (ngSubmit)="login()">
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
-                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
                         </div>
                         <div class="form-group">
+                          <br>
                           <label for="exampleInputPassword1">Password</label>
-                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
                         </div>
-                        <input type="submit" value="Log In" class="btn btn-primary">
+                        <br>
+                        <div style="text-align:center">
+                        <input type="submit" value="LOGIN" class="bt" >
+                        </div>
                       </form>
-                      <a routerLink="../signup" >new user ? click to signUp</a>
+                      <br>
+                      <div style="text-align: center;">
+                      <a routerLink="../signup"  >NEW USER ? CLICK TO SIGN UP</a>
+                      </div>
                 </div>
             </div>
         </div>

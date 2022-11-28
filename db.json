@@ -507,18 +507,36 @@
   ],
   "signupUsers": [
     {
-      "fullname": "",
-      "email": "",
-      "password": "",
-      "mobile": "",
-      "id": 1
-    },
-    {
       "fullname": "amine",
       "email": "nice@gmail.com",
       "password": "123",
       "mobile": 787745878,
+      "admin": true,
+      "id": 1
+    },
+    {
+      "fullname": "notadmin",
+      "email": "wtf@gmail.com",
+      "password": "123",
+      "mobile": 47878787,
+      "admin": false,
       "id": 2
+    },
+    {
+      "fullname": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "mobile": 74747475,
+      "admin": false,
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "email": "1",
+      "password": "",
+      "mobile": 4,
+      "admin": false,
+      "id": 4
     }
   ]
 }

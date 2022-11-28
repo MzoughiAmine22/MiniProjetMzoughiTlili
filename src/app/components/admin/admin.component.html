@@ -1,1 +1,14 @@
-nice
+<body style="background:url('assets/loooo.png');" >
+    <br>
+    <div class="container">
+    <table width="100%">
+        <tr *ngFor="let p of products">
+            <td>{{p.libelle}}</td>
+            <td>{{p.platform}}</td>
+            <td>{{p.price | number:'.3'}} TND</td>
+            <td>{{p.category}}</td>
+            <td>{{p.manufacture}}</td>
+        </tr>
+    </table>
+    </div>
+</body>

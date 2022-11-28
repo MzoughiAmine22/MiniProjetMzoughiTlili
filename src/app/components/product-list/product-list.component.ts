@@ -36,7 +36,7 @@ export class ProductListComponent implements OnInit {
        })
       });
   }
-  filter(category:string)
+  categ(category:string)
   {
     this.filterCategory=this.products.filter((a:any)=>{
       if(a.category== category || category == '')

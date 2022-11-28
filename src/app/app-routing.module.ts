@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductComponent } from './components/product/product.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { RoleGuard } from './services/role.guard';
 
 const routes: Routes = 
 [
@@ -17,7 +18,7 @@ const routes: Routes =
   {path:'list/detailPro/:id',title:'Product',component:DetailedProductComponent},
   {path:'list',title:'Products',component:ProductListComponent},
   {path:'about',title:'About Us',component:AboutComponent},
-  {path:'admin',title:'Admin',component:AdminComponent},
+  {path:'admin',title:'Admin',component:AdminComponent,canActivate:[RoleGuard]},
   {path:'cart',title:'Cart',component:CartComponent},
   {path:'login',title:'Log In',component:LoginComponent},
   {path:'signup',title:'Sign Up',component:SignupComponent},

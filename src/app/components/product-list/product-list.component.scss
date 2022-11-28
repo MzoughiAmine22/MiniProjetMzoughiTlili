@@ -1,4 +1,4 @@
-body{animation: trans 1.5s;height:3000px;width: auto;background:rgb(27, 26, 26)}
+body{animation: trans 1.5s;height: 100%;width: 100%;background:rgb(27, 26, 26)}
 
 
 .c1{animation: transl 5s alternate infinite}
@@ -23,6 +23,8 @@ body{animation: trans 1.5s;height:3000px;width: auto;background:rgb(27, 26, 26)}
 
 .ho:hover{cursor: pointer;}
 
+.appear{animation: trans .4s;}
+
 .form-control{border-radius: 3px;width:800px;height:50px}
 
 .sea
@@ -32,3 +34,20 @@ body{animation: trans 1.5s;height:3000px;width: auto;background:rgb(27, 26, 26)}
     color:#f4511e;
     top: 298px;
 }
+
+.social{text-align: right;}
+
+ .social a
+ {
+  margin-left:30px;
+  margin-right: 40px;
+  margin-top: 70px;
+  display: inline-block;
+  color: black;
+ }
+ .social a:hover
+ {
+  transform: scale(1.2);
+  transition: .4s;
+  color: white;
+ }

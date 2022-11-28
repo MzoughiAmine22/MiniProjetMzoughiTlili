@@ -8,8 +8,20 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background: hsla(205, 46%, 30%, 1);
-    background: linear-gradient(90deg,hsla(205, 46%, 30%, 1) 0%,hsla(206, 29%, 36%, 1)100%);
+    //background: rgb(196, 204, 209);
+    //background: linear-gradient(90deg,rgb(43, 44, 45) 0%,rgb(212, 102, 33)100%);
 }
 .card h1,h6{color:white}
 label {color: white;}
+
+.btn-primary{background : #fff;color:black;border-color: black;}
+
+.form-control{border-color: black;border: 1px solid;}
+
+a{color:#fff}
+
+a:hover{color:black}
+
+.bt{border-radius: 5px;border:1px solid black;padding: 10px;transition: .2s;}
+
+.bt:hover{background-color: #fff;transition: .2s;}
