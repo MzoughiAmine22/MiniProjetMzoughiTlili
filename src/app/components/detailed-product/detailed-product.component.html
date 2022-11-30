@@ -36,7 +36,7 @@
         <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;">{{product?.description}}</div>
     </div>
     <div class="div4" style="color: white;background-image: url('assets/looooo.png')" *ngIf="noDiv2">
-        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;"><div *ngFor="let p of product?.characteristics" >{{p.releaseDate | date:'MM/dd/yyy'}} | {{p.platform}} | {{p.manufacture}}</div></div>
+        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;"><div>{{product.releaseDate | date:'dd/MM/yyyy'}}</div></div>
     </div>
     <br>
     <div class="div5" style="background-image: url('assets/looooo.png')">

@@ -10,17 +10,11 @@
       "availability": false,
       "photo": "assets/ps5_.png",
       "manufacture": "Sony",
+      "releaseDate": "",
       "comments": [
         {
           "name": "amine",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Sony"
         }
       ]
     },
@@ -34,17 +28,11 @@
       "availability": true,
       "photo": "assets/godrag.png",
       "manufacture": "Santa Monica Studio",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Amine",
           "message": "I recommend this game !"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "2022-11-09",
-          "platform": "ps5",
-          "manufacture": "Santa Monica Studio"
         }
       ]
     },
@@ -58,17 +46,11 @@
       "availability": true,
       "photo": "assets/demon's souls ps5.png",
       "manufacture": "FromSoftware",
+      "releaseDate": "",
       "comments": [
         {
           "name": "amine",
           "message": "one of the best "
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "2020",
-          "platform": "ps5",
-          "manufacture": "FromSoftware"
         }
       ]
     },
@@ -82,17 +64,11 @@
       "availability": true,
       "photo": "assets/ER2.png",
       "manufacture": "FromSoftware",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "2022",
-          "platform": "ps5",
-          "manufacture": "FromSoftware"
         }
       ]
     },
@@ -106,17 +82,11 @@
       "availability": true,
       "photo": "assets/fh5.png",
       "manufacture": "Microsoft",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Zied",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "2022-11-09",
-          "platform": "Xbox Series X",
-          "manufacture": "Microsoft"
         }
       ]
     },
@@ -130,17 +100,11 @@
       "availability": true,
       "photo": "assets/ps4_slim.png",
       "manufacture": "Sony",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Sony"
         }
       ]
     },
@@ -154,17 +118,11 @@
       "availability": true,
       "photo": "assets/eldenRing.png",
       "manufacture": "FromSoftware",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Farah",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "FromSoftware"
         }
       ]
     },
@@ -178,17 +136,11 @@
       "availability": true,
       "photo": "assets/codCW.png",
       "manufacture": "Activision",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Yosra",
           "message": "nice"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Activision"
         }
       ]
     },
@@ -202,17 +154,11 @@
       "availability": true,
       "photo": "assets/codMW1.png",
       "manufacture": "Activision",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Amine",
           "message": "game of the year"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "9-11-2022",
-          "platform": "ps4",
-          "manufacture": "Sony"
         }
       ]
     },
@@ -226,17 +172,11 @@
       "availability": true,
       "photo": "assets/rdr2.png",
       "manufacture": "Rockstar Games",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Amine",
           "message": "game of the year"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Rockstar Games"
         }
       ]
     },
@@ -250,17 +190,11 @@
       "availability": true,
       "photo": "assets/spi.png",
       "manufacture": "Insomniac",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Ismail",
           "message": "nice"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Insomniac"
         }
       ]
     },
@@ -274,17 +208,11 @@
       "availability": true,
       "photo": "assets/TLOU.png",
       "manufacture": "Naughty Dog",
+      "releaseDate": "",
       "comments": [
         {
           "name": "Ismail",
           "message": "nice"
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Naughty Dog"
         }
       ]
     },
@@ -298,17 +226,11 @@
       "availability": true,
       "photo": "assets/got.png",
       "manufacture": "Sony",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Sony"
         }
       ]
     },
@@ -322,17 +244,11 @@
       "availability": true,
       "photo": "assets/GOS.png",
       "manufacture": "Sucker Punch Productions",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Sucker Punch Productions"
         }
       ]
     },
@@ -346,17 +262,11 @@
       "availability": true,
       "photo": "assets/nfs.png",
       "manufacture": "Ghost",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Ghost"
         }
       ]
     },
@@ -370,17 +280,11 @@
       "availability": true,
       "photo": "assets/fifa.png",
       "manufacture": "EA",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "EA"
         }
       ]
     },
@@ -394,17 +298,11 @@
       "availability": true,
       "photo": "assets/battlefield.png",
       "manufacture": "Dice",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "Xbox Series X",
-          "manufacture": "Dice"
         }
       ]
     },
@@ -418,17 +316,11 @@
       "availability": true,
       "photo": "assets/goth.png",
       "manufacture": "DC",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "Xbox Series X",
-          "manufacture": "DC"
         }
       ]
     },
@@ -442,17 +334,11 @@
       "availability": true,
       "photo": "assets/sr.png",
       "manufacture": "Volitition",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Volitition"
         }
       ]
     },
@@ -466,17 +352,11 @@
       "availability": false,
       "photo": "assets/xbox series x.png",
       "manufacture": "Microsoft",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "Xbox Series X",
-          "manufacture": "Microsoft"
         }
       ]
     },
@@ -490,17 +370,11 @@
       "availability": true,
       "photo": "assets/tad.png",
       "manufacture": "Selectar Play",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Selectar Play"
         }
       ]
     },
@@ -514,17 +388,11 @@
       "availability": false,
       "photo": "assets/eld.png",
       "manufacture": "FromSoftware",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "Xbox Series X",
-          "manufacture": "FromSoftware"
         }
       ]
     },
@@ -538,17 +406,11 @@
       "availability": false,
       "photo": "assets/av.png",
       "manufacture": "Marvel",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps5",
-          "manufacture": "Marvel"
         }
       ]
     },
@@ -562,17 +424,11 @@
       "availability": false,
       "photo": "assets/blood.png",
       "manufacture": "FromSoftware",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "FromSoftware"
         }
       ]
     },
@@ -586,56 +442,97 @@
       "availability": false,
       "photo": "assets/cod.png",
       "manufacture": "Activision",
+      "releaseDate": "",
       "comments": [
         {
           "name": "user",
           "message": ""
         }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "Xbox Series X",
-          "manufacture": "Activision"
-        }
       ]
     },
     {
-      "libelle": "Death Stranding",
-      "category": "Game",
-      "price": 130,
-      "photo": "assets/death.png",
-      "platform": "ps5",
-      "manufacture": "Kojima Productions",
-      "availability": "true",
-      "description": "test",
-      "characteristics": [
-        {
-          "releaseDate": "2022-11-01T23:00:00.000Z",
-          "platform": "ps5",
-          "manufacture": "Kojima Productions"
-        }
-      ],
-      "id": 26
-    },
-    {
+      "id": 27,
       "libelle": "God of War 3",
       "category": "Game",
       "price": 80,
       "photo": "assets/god3.png",
       "platform": "ps4",
       "manufacture": "Santa Monica Studios",
-      "availability": "true",
+      "availability": true,
       "description": "god of war 3 good",
-      "characteristics": {
-        "releaseDate": "2022-11-02T23:00:00.000Z",
-        "platform": "ps4",
-        "manufacture": "Santa Monica Studios"
-      },
-      "id": 27
+      "releaseDate": "20/01/2010"
     },
     {
+      "libelle": "Grand Theft Auto V",
+      "category": "Game",
+      "price": 80,
+      "photo": "assets/gta.png",
+      "platform": "ps4",
+      "manufacture": "Rockstar",
+      "availability": false,
+      "description": "Cool Game",
+      "releaseDate": "2013-09-16T23:00:00.000Z",
       "id": 28
+    },
+    {
+      "libelle": "Minecraft",
+      "category": "Game",
+      "price": 50,
+      "photo": "assets/mine.png",
+      "platform": "Xbox One",
+      "manufacture": "Microsoft",
+      "availability": false,
+      "description": "cool game",
+      "releaseDate": "2010-06-16T23:00:00.000Z",
+      "id": 29
+    },
+    {
+      "libelle": " Need for Speed Unbound",
+      "category": "Game",
+      "price": 120,
+      "photo": "assets/nfsu.png",
+      "platform": "ps5",
+      "manufacture": "Activision",
+      "availability": true,
+      "description": "Need for Speed Unbound",
+      "releaseDate": "2022-12-01T23:00:00.000Z",
+      "id": 30
+    },
+    {
+      "libelle": "Stars Wars Battlefront 2",
+      "category": "Game",
+      "price": 80,
+      "photo": "assets/stars.png",
+      "platform": "ps4",
+      "manufacture": "EA",
+      "availability": false,
+      "description": "Stars",
+      "releaseDate": "2016-07-14T23:00:00.000Z",
+      "id": 31
+    },
+    {
+      "libelle": "Dragon Ball Xenoverse 2",
+      "category": "Game",
+      "price": 90,
+      "photo": "assets/drag.png",
+      "platform": "Xbox One",
+      "manufacture": "Dimps",
+      "availability": false,
+      "description": "cool",
+      "releaseDate": "2016-10-25T23:00:00.000Z",
+      "id": 32
+    },
+    {
+      "libelle": "Star Wars Battlefront 1",
+      "category": "Game",
+      "price": 90,
+      "photo": "assets/star1.png",
+      "platform": "ps4",
+      "manufacture": "EA",
+      "availability": false,
+      "description": "type",
+      "releaseDate": "2016-03-02T23:00:00.000Z",
+      "id": 33
     }
   ],
   "signupUsers": [

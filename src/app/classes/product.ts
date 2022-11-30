@@ -1,4 +1,3 @@
-import { Charac } from "./charac";
 import { Commentaires } from "./commentaires";
 export class Product 
 {
@@ -12,8 +11,8 @@ export class Product
         public platform:string,
         public availability:boolean,
         public photo:string,
+        public releaseDate: Date,
         public manufacture:string,
         public comments:Commentaires[],
-        public characteristics:Charac[]
     ){}
 }
