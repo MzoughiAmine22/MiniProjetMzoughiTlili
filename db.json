@@ -1,30 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "libelle": "PlayStation 4",
-      "price": "800",
-      "description": "",
-      "category": "Console",
-      "platform": "ps4",
-      "availability": true,
-      "photo": "assets/ps4_slim.png",
-      "manufacture": "Sony",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ],
-      "characteristics": [
-        {
-          "releaseDate": "",
-          "platform": "ps4",
-          "manufacture": "Sony"
-        }
-      ]
-    },
-    {
       "id": 2,
       "libelle": "PlayStation 5",
       "price": "1500",
@@ -141,6 +117,30 @@
           "releaseDate": "2022-11-09",
           "platform": "Xbox Series X",
           "manufacture": "Microsoft"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "libelle": "PlayStation 4",
+      "price": "800",
+      "description": "",
+      "category": "Console",
+      "platform": "ps4",
+      "availability": true,
+      "photo": "assets/ps4_slim.png",
+      "manufacture": "Sony",
+      "comments": [
+        {
+          "name": "user",
+          "message": ""
+        }
+      ],
+      "characteristics": [
+        {
+          "releaseDate": "",
+          "platform": "ps4",
+          "manufacture": "Sony"
         }
       ]
     },
@@ -457,6 +457,30 @@
       ]
     },
     {
+      "id": 24,
+      "libelle": "Xbox Series X",
+      "price": "1500",
+      "description": "",
+      "category": "Console",
+      "platform": "Xbox Series X",
+      "availability": false,
+      "photo": "assets/xbox series x.png",
+      "manufacture": "Microsoft",
+      "comments": [
+        {
+          "name": "user",
+          "message": ""
+        }
+      ],
+      "characteristics": [
+        {
+          "releaseDate": "",
+          "platform": "Xbox Series X",
+          "manufacture": "Microsoft"
+        }
+      ]
+    },
+    {
       "id": 20,
       "libelle": "TAD The Lost Explorer",
       "price": "80",
@@ -503,6 +527,115 @@
           "manufacture": "FromSoftware"
         }
       ]
+    },
+    {
+      "id": 22,
+      "libelle": "Avengers",
+      "price": "120",
+      "description": "",
+      "category": "Game",
+      "platform": "ps5",
+      "availability": false,
+      "photo": "assets/av.png",
+      "manufacture": "Marvel",
+      "comments": [
+        {
+          "name": "user",
+          "message": ""
+        }
+      ],
+      "characteristics": [
+        {
+          "releaseDate": "",
+          "platform": "ps5",
+          "manufacture": "Marvel"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "libelle": "BloodBorne",
+      "price": "40",
+      "description": "",
+      "category": "Game",
+      "platform": "ps4",
+      "availability": false,
+      "photo": "assets/blood.png",
+      "manufacture": "FromSoftware",
+      "comments": [
+        {
+          "name": "user",
+          "message": ""
+        }
+      ],
+      "characteristics": [
+        {
+          "releaseDate": "",
+          "platform": "ps4",
+          "manufacture": "FromSoftware"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "libelle": "Call of Duty Vanguard",
+      "price": "130",
+      "description": "",
+      "category": "Game",
+      "platform": "Xbox Series X",
+      "availability": false,
+      "photo": "assets/cod.png",
+      "manufacture": "Activision",
+      "comments": [
+        {
+          "name": "user",
+          "message": ""
+        }
+      ],
+      "characteristics": [
+        {
+          "releaseDate": "",
+          "platform": "Xbox Series X",
+          "manufacture": "Activision"
+        }
+      ]
+    },
+    {
+      "libelle": "Death Stranding",
+      "category": "Game",
+      "price": 130,
+      "photo": "assets/death.png",
+      "platform": "ps5",
+      "manufacture": "Kojima Productions",
+      "availability": "true",
+      "description": "test",
+      "characteristics": [
+        {
+          "releaseDate": "2022-11-01T23:00:00.000Z",
+          "platform": "ps5",
+          "manufacture": "Kojima Productions"
+        }
+      ],
+      "id": 26
+    },
+    {
+      "libelle": "God of War 3",
+      "category": "Game",
+      "price": 80,
+      "photo": "assets/god3.png",
+      "platform": "ps4",
+      "manufacture": "Santa Monica Studios",
+      "availability": "true",
+      "description": "god of war 3 good",
+      "characteristics": {
+        "releaseDate": "2022-11-02T23:00:00.000Z",
+        "platform": "ps4",
+        "manufacture": "Santa Monica Studios"
+      },
+      "id": 27
+    },
+    {
+      "id": 28
     }
   ],
   "signupUsers": [

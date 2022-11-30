@@ -1,9 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/classes/product';
 import { AuthService } from 'src/app/services/auth.service';
 import { ProductService } from 'src/app/services/product.service';
+import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
   selector: 'app-admin',
@@ -12,13 +14,7 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class AdminComponent implements OnInit {
 
-  noShow:boolean;
-  
-  
-
-  constructor(private productService:ProductService,private activatedRoute:ActivatedRoute,private http:HttpClient,auth:AuthService) 
-  {
-   }
+  constructor(private productService:ProductService,private dialog:MatDialog,private activatedRoute:ActivatedRoute,private http:HttpClient,auth:AuthService) {}
    admin:any;
   products:Product[];
   ngOnInit(): void {
@@ -27,6 +23,13 @@ export class AdminComponent implements OnInit {
       {
         this.admin=res;
       })
+  }
+  openDialog() {
+    const dialogRef = this.dialog.open(DialogComponent,{width:"50%",height:"80%"});
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
   
 

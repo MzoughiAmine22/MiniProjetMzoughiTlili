@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Product } from '../classes/product';
-import { BehaviorSubject, map } from 'rxjs';
 
 const URL = 'http://localhost:3500/products';
 @Injectable({
@@ -21,6 +20,8 @@ export class ProductService {
     return this.http.get<Product>(URL+"/"+id);
  }
 
-
-  
+ addProduct(p:Product)
+ {
+  return this.http.post<Product>(URL,p);
+ }  
 }

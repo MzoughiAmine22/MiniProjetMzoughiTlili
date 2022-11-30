@@ -1,0 +1,72 @@
+<h1 mat-dialog-title style="text-align: center;">ADD A PRODUCT</h1>
+<div mat-dialog-content >
+<form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Product name</mat-label>
+        <input formControlName="libelle" matInput placeholder="...">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Price</mat-label>
+        <input formControlName="price" type="number" matInput placeholder="...">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Category</mat-label>
+        <mat-select formControlName="category">
+            <mat-option value="Game">Game</mat-option>
+            <mat-option value="Console">Console</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Image Path</mat-label>
+        <input formControlName="photo" matInput placeholder="...">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product platform</mat-label>
+        <input formControlName="platform" matInput placeholder="...">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Manufacture</mat-label>
+        <input formControlName="manufacture" matInput placeholder="...">
+    </mat-form-field>
+    <br>
+    <br>
+        <label>Product Availability : </label>
+        <br>
+        <br>
+        <mat-radio-group formControlName="availability">
+            <mat-radio-button value="true">In Stock</mat-radio-button>&nbsp;
+            <mat-radio-button value="false">Out Stock</mat-radio-button>
+        </mat-radio-group>
+    <br>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Description</mat-label>
+        <textarea formControlName="description" matInput></textarea>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Releasse Date</mat-label>
+        <input formControlName="releaseDate" matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Platform</mat-label>
+        <input formControlName="platform" matInput placeholder="...">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Manufacture</mat-label>
+        <input formControlName="manufacture" matInput placeholder="...">
+    </mat-form-field>
+</form>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary" (click)="addProduct()">Save</button>
+</div>
+</div>

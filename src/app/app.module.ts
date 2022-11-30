@@ -33,6 +33,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { FooterComponent } from './components/footer/footer.component';
     LoginComponent,
     SignupComponent,
     AdminComponent,
-    FooterComponent
+    FooterComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
