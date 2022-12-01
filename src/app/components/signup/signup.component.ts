@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Route, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 @Component({
@@ -15,6 +15,8 @@ export class SignupComponent implements OnInit {
 
   signUp()
   {
+    if(this.signupForm.valid)
+    {
     this.http.post<any>("http://localhost:3500/signupUsers",this.signupForm.value)
     .subscribe( res =>
       {alert("Signup Suceessfull");
@@ -22,13 +24,14 @@ export class SignupComponent implements OnInit {
       this.router.navigate(['login']);
     },err=>{
       alert("Something went wrong")});
+    }
   }
   ngOnInit(): void {
     this.signupForm=this.fb.group({
-      fullname:[''],
-      email:[''],
-      password:[''],
-      mobile:[''],
+      fullname:['',Validators.required],
+      email:['',Validators.required],
+      password:['',Validators.required],
+      mobile:['',Validators.required],
       admin:[false]
     })
   }

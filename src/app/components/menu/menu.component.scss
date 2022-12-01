@@ -13,7 +13,7 @@ img {width:40px;height:60px}
 //-webkit-text-stroke: 0.5px whitesmoke;
 
 
-mat-toolbar{animation: trans 1.5s;border: 0.1px solid black;}
+mat-toolbar{animation: trans 1.5s;border: 0.1px solid black;position: sticky;z-index: 9;top: 0;}
 @keyframes trans 
 {
     from{opacity: 0.5;transform: rotateX(-10deg);}

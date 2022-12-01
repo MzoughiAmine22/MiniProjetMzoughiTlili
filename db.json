@@ -1,22 +1,16 @@
 {
   "products": [
     {
-      "id": 2,
       "libelle": "PlayStation 5",
-      "price": "1500",
-      "description": "",
       "category": "Console",
-      "platform": "ps5",
-      "availability": false,
+      "price": "1500",
       "photo": "assets/ps5_.png",
+      "platform": "ps5",
       "manufacture": "Sony",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "amine",
-          "message": ""
-        }
-      ]
+      "availability": true,
+      "description": "type",
+      "releaseDate": "2022-11-22T23:00:00.000Z",
+      "id": 2
     },
     {
       "id": 3,
@@ -37,22 +31,16 @@
       ]
     },
     {
-      "id": 4,
       "libelle": "Demon's Souls Remake",
-      "price": "120",
-      "description": "My dream Game",
       "category": "Game",
-      "platform": "ps5",
-      "availability": true,
+      "price": "120",
       "photo": "assets/demon's souls ps5.png",
+      "platform": "ps5",
       "manufacture": "FromSoftware",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "amine",
-          "message": "one of the best "
-        }
-      ]
+      "availability": false,
+      "description": "type",
+      "releaseDate": "2022-11-15T23:00:00.000Z",
+      "id": 4
     },
     {
       "id": 5,
@@ -86,24 +74,6 @@
       "comments": [
         {
           "name": "Zied",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "libelle": "PlayStation 4",
-      "price": "800",
-      "description": "",
-      "category": "Console",
-      "platform": "ps4",
-      "availability": true,
-      "photo": "assets/ps4_slim.png",
-      "manufacture": "Sony",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
           "message": ""
         }
       ]
@@ -499,18 +469,6 @@
       "id": 30
     },
     {
-      "libelle": "Stars Wars Battlefront 2",
-      "category": "Game",
-      "price": 80,
-      "photo": "assets/stars.png",
-      "platform": "ps4",
-      "manufacture": "EA",
-      "availability": false,
-      "description": "Stars",
-      "releaseDate": "2016-07-14T23:00:00.000Z",
-      "id": 31
-    },
-    {
       "libelle": "Dragon Ball Xenoverse 2",
       "category": "Game",
       "price": 90,
@@ -533,13 +491,25 @@
       "description": "type",
       "releaseDate": "2016-03-02T23:00:00.000Z",
       "id": 33
+    },
+    {
+      "libelle": "Grand Turismo 7",
+      "category": "Game",
+      "price": 150,
+      "photo": "assets/grand.png",
+      "platform": "ps4",
+      "manufacture": "Sony",
+      "availability": true,
+      "description": "type",
+      "releaseDate": "2022-11-09T23:00:00.000Z",
+      "id": 34
     }
   ],
   "signupUsers": [
     {
       "fullname": "amine",
       "email": "nice@gmail.com",
-      "password": "123",
+      "password": "admin",
       "mobile": 787745878,
       "admin": true,
       "id": 1
@@ -559,14 +529,6 @@
       "mobile": 74747475,
       "admin": false,
       "id": 3
-    },
-    {
-      "fullname": "",
-      "email": "1",
-      "password": "",
-      "mobile": 4,
-      "admin": false,
-      "id": 4
     }
   ]
 }

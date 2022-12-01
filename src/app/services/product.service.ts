@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Product } from '../classes/product';
 
-const URL = 'http://localhost:3500/products';
+const URL = 'http://localhost:3500/products/';
 @Injectable({
   providedIn: 'root'
 })
@@ -24,4 +24,14 @@ export class ProductService {
  {
   return this.http.post<Product>(URL,p);
  }  
+
+ putProduct(data:Product,id:number)
+ {
+  return this.http.put<Product>(URL+id,data);
+ }
+
+ deleteProduct(id:number)
+ {
+  return this.http.delete<Product>(URL+id);
+ }
 }

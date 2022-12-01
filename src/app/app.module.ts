@@ -34,6 +34,8 @@ import { SignupComponent } from './components/signup/signup.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { ChangePassComponent } from './components/change-pass/change-pass.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     SignupComponent,
     AdminComponent,
     FooterComponent,
-    DialogComponent
+    DialogComponent,
+    ChangePassComponent
   ],
   imports: [
     BrowserModule,
@@ -59,6 +62,7 @@ import { DialogComponent } from './components/dialog/dialog.component';
     BrowserAnimationsModule,
     MatMenuModule,
     MatIconModule,
+    RouterModule,
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,

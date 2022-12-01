@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -12,13 +12,10 @@ export class LoginComponent implements OnInit {
 
   constructor(private fb:FormBuilder,private http:HttpClient,private router:Router ) { }
   loginForm:FormGroup;
-
-  @Output() notify= new EventEmitter<boolean>();
-  @Input() noShow : boolean; 
   ngOnInit(): void {
     this.loginForm=this.fb.group({
-      email: [''],
-      password:['']
+      email: ['',Validators.required],
+      password:['',Validators.required]
     });
   }
   login()
