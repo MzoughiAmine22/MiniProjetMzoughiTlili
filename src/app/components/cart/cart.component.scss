@@ -1,4 +1,4 @@
-body{animation: trans 1.5s;background:rgb(27, 26, 26);height: 621px;color:white;font-family: monospace;}
+body{animation: trans 1.5s;background:rgb(27, 26, 26);color:white;font-family: monospace;height: auto;min-height: 100%;}
 
 
 .c1{animation: transl 5s alternate infinite}
@@ -13,7 +13,7 @@ body{animation: trans 1.5s;background:rgb(27, 26, 26);height: 621px;color:white;
 .car{height: 60vh;margin: 25px;padding: 25px;}
 
 .cent{
-    position: absolute;
+    position: relative;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -26,7 +26,6 @@ body{animation: trans 1.5s;background:rgb(27, 26, 26);height: 621px;color:white;
 
 .card-table
 {
-    position: relative;
     display: flex;
     flex-direction: column;
     min-width: none;
@@ -35,4 +34,12 @@ body{animation: trans 1.5s;background:rgb(27, 26, 26);height: 621px;color:white;
     background-clip: border-box;
     border: 1px solid rgb(27, 26, 26);
     border-radius: 5px;
+    
 }
+
+.mat-success{background-color: #f4511e;animation : no .4s infinite;animation-direction: alternate;color:white}
+
+ @keyframes no {
+    from{transform: translateY(5px);}
+    to{transform: translatY(-5px);}
+ }

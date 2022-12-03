@@ -1,4 +1,4 @@
-body{animation: trans 1.5s;height: 100%;width: 100%;background:rgb(27, 26, 26)}
+body{animation: trans 1.5s ;width: 100%;height: auto;min-height: 100%;background:rgb(27, 26, 26);}
 
 
 .c1{animation: transl 5s alternate infinite}
@@ -51,3 +51,11 @@ body{animation: trans 1.5s;height: 100%;width: 100%;background:rgb(27, 26, 26)}
   transition: .4s;
   color: white;
  }
+ 
+ .mat-primary{background-color: #f4511e;animation : no .4s infinite;animation-direction: alternate;}
+
+ @keyframes no {
+    from{transform: translateY(5px);}
+    to{transform: translatY(-5px);}
+ }
+ 

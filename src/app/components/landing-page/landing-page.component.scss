@@ -11,9 +11,12 @@
 .c1{animation: transl 5s alternate infinite}
 
 
+.btnn{font-size:30px ;border:1px solid #EF5F0D;margin-top:50px;margin-left: 50px;padding: 15px 32px;border-radius: 5px;background: #EF5F0D;color:whitesmoke;transition: .75s;transform: translateY(0px);}
+
 .btnn:hover
 {
-  animation: btnAni 0.75s alternate infinite;
+  
+  transform: translateY(10px);transition: .75s;
 }
 
 
@@ -58,8 +61,9 @@
   100%{transform: translateY(20px);}
  } 
 
- 
- 
-  
+ .mat-primary{background-color: #f4511e;animation : no .4s infinite;animation-direction: alternate;}
 
-
+ @keyframes no {
+  from{transform: translateY(5px);}
+  to{transform: translatY(-5px);}
+}

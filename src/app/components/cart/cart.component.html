@@ -1,10 +1,10 @@
 
-<body style="background:url('assets/loooo.png');color: white;">
+<body style="background:url('assets/loooo.png');color: white;" >
     <ng-container *ngIf="products.length !=0" >
         <br>
         <div class="container">
-            <div class="card-table">
-            <div class="cart-product" style="border-radius: 5px ;">
+            <div class="card-table" >
+            <div  style="border-radius: 5px ;">
                 <table class="table table-responsive">
                     <thead>
                         <tr>
@@ -13,20 +13,16 @@
                             <th>Product Image</th>
                             <th>Description</th>
                             <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr *ngFor="let p of products;index as i" >
                             <td>{{i+1}}</td>
-                            <td>{{p.libelle}}Iphone</td>
-                            <td><img [src]="p.photo"/></td>
+                            <td>{{p.libelle}}</td>
+                            <td><img [src]="p.photo" width="150px" height="150px"/></td>
                             <td>{{p.description}}</td>
                             <td>{{p.price}}</td>
-                            <td>{{p.quantity}}</td>
-                            <td>{{p.total}}</td>
                             <td>
                                 <button (click)="removeItem(p)" class="btn btn-danger"><span class="material-symbols-outlined">delete</span></button>
                             </td>
@@ -35,20 +31,24 @@
                 </table>
             </div>
             </div>
+            <span>Total : {{grandTotal}}</span>
         </div>
     </ng-container>
-    <ng-container *ngIf="products.length==0" >
+    <ng-container *ngIf="products.length==0"   >
     <br>
     <div class="container">
-        <mat-card class="car" style="background:#f4511e;color: white;">
+        <mat-card class="car" style="background:#f4511e;color: white;position: relative;bottom: 10px;">
             <div class="cent">
             <img src="assets/cc.png" width="100px" height="100px" style="position: relative;top:-15px;right:6px" />
             <br>
             <h3>Your cart is empty !</h3>
                 <h4>Fill it Up !</h4>
-                &nbsp;<button mat-raised-button color="primary" routerLink="../list">Show Now</button>
+                &nbsp;<button mat-raised-button color="primary" routerLink="../list">Shop Now</button>
             </div>
         </mat-card>
     </div>
     </ng-container>
+    <div style="text-align: right;">
+        <button style="position: relative;bottom:10px;right:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="success" ><span  class="material-symbols-outlined">arrow_upward</span></button>
+    </div>
 </body>

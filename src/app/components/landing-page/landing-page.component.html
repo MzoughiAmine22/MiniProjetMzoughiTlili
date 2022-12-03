@@ -20,7 +20,7 @@
                         <span style="color:#EF5F0D;">Browse</span> Our Products Here
                     </span>
                     <br>
-                <button class="btnn" routerLink="/list" style="font-size:30px ;border:1px solid #EF5F0D;margin-top:50px;margin-left: 50px;padding: 15px 32px;border-radius: 5px;background: #EF5F0D;color:whitesmoke;">
+                <button class="btnn" routerLink="/list" >
                     Browse
                 </button>
         </div> 
@@ -35,6 +35,9 @@
                 <app-product [prod]="p" [routerLink]="['../list/detailPro',p.id]" ></app-product>
             </div>
         <br>
+        </div>
+        <div style="text-align: right;">
+        <button style="position: relative;bottom:10px;left:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="primary" ><span  class="material-symbols-outlined">arrow_upward</span></button>
         </div>
     </div>
     <br>

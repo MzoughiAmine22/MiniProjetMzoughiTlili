@@ -3,6 +3,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ProductService } from 'src/app/services/product.service';
 import {MatDialogRef} from '@angular/material/dialog';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Product } from 'src/app/classes/product';
+import { Commentaires } from 'src/app/classes/commentaires';
 @Component({
   selector: 'app-dialog',
   templateUrl: './dialog.component.html',
@@ -13,7 +15,10 @@ export class DialogComponent implements OnInit {
   constructor(private formBuilder : FormBuilder,private proServ:ProductService,private dialogRef: MatDialogRef<DialogComponent>,@Inject(MAT_DIALOG_DATA) private editData :any) { }
   charac:FormGroup;
   buttonAction:string = "Save";
-  productForm:FormGroup
+  productForm:FormGroup;
+  product:Product;
+  oldProduct:Product;
+  comments:Commentaires[];
   ngOnInit(): void {
     this.productForm = this.formBuilder.group({
       libelle : ['',Validators.required],
@@ -26,6 +31,10 @@ export class DialogComponent implements OnInit {
       description : ['type',Validators.required],
       releaseDate:['',Validators.required],
     });
+    this.proServ.getProduitById(this.editData.id).subscribe(res =>{
+      this.oldProduct=res;
+      this.comments=res.comments;
+    })
     
     if(this.editData)
     {
@@ -37,10 +46,11 @@ export class DialogComponent implements OnInit {
       this.productForm.controls['manufacture'].setValue(this.editData.manufacture);
       this.productForm.controls['releaseDate'].setValue(this.editData.releaseDate);
       this.productForm.controls['photo'].setValue(this.editData.photo);
-     
+      this.productForm.controls['description'].setValue(this.editData.description);
     }
   }
-  addProduct(){
+  addProduct()
+  {
     if(!this.editData){
     if(this.productForm.valid)
     {
@@ -58,8 +68,10 @@ export class DialogComponent implements OnInit {
   }
   }
   updateProduct()
-  {
-    this.proServ.putProduct(this.productForm.value,this.editData.id).subscribe(
+  { 
+    this.product=this.productForm.value;
+    this.product.comments=this.comments;
+    this.proServ.putProduct(this.product,this.editData.id).subscribe(
       res =>{
         alert('Product Updated Successfully');
         this.productForm.reset();

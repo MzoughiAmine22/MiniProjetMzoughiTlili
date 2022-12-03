@@ -1,4 +1,4 @@
-body{height: 100%;color: white;animation: appear .4s ;}
+body{color: white;animation: appear .4s ;height: auto;}
 
 img{width: 400px;height: 400px;}
 
@@ -28,7 +28,13 @@ img{width: 400px;height: 400px;}
     ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
         background-color: #f4511e!important;
     }
-
+    ::ng-deep .mat-form-field-flex > .mat-form-field-infix { padding: 0.4em 0px !important;}
+    ::ng-deep .mat-form-field-label-wrapper { top: -1.5em; }
+    
+    ::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+        transform: translateY(-1.1em) scale(.75);
+        width: 133.33333%;
+    }
     
 
 @keyframes appear 
@@ -55,3 +61,7 @@ img{width: 400px;height: 400px;}
  }
 
  .btt{background-color: #f4511e;}
+
+table{width: 80%;border:.2px solid white;border-radius: 20px;text-align: center;border-collapse: collapse;}
+
+th,td{width: 20%;border: .22px solid white;padding: 30px;border-radius: 20px;}

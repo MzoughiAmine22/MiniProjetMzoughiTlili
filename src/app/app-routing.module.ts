@@ -10,7 +10,6 @@ import { ErrorComponent } from './components/error/error.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
-import { ProductComponent } from './components/product/product.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { RoleGuard } from './services/role.guard';
 

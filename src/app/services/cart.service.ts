@@ -1,3 +1,4 @@
+import { Portal } from '@angular/cdk/portal';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { Product } from '../classes/product';
@@ -8,7 +9,7 @@ import { Product } from '../classes/product';
 
 export class CartService {
 
-  cartItemList:any[];
+  cartItemList:any=[];
   productList = new BehaviorSubject<any>([]);
   constructor() { }
   getProducts()
@@ -17,25 +18,25 @@ export class CartService {
   }
   setProduct(product:any)
   {
-    this.cartItemList.push(product);
+    this.cartItemList.push(...product);
     this.productList.next(product);
   }
-  addtoCart(product:any)
+  addtoCart(product:Product)
   {
     this.cartItemList.push(product);
     this.productList.next(this.cartItemList);
     this.getTotalPrice();
-    console.log(this.cartItemList);
   }
-  getTotalPrice() : number
+  getTotalPrice():number
   {
-    var total = 0;
-    this.cartItemList.map((a:any)=>{
-      total = total + a.total;
-    });
-    return total;
+    let grandTotal:number = 0 ;
+    for(let i=0;i<this.cartItemList.length;i++)
+    {
+      grandTotal=grandTotal+Number(this.cartItemList[i].price);
+    }
+    return grandTotal;
   }
-  removeCartItem(product:any)
+  removeCartItem(product:Product)
   {
     this.cartItemList.map((a:any,index:any)=>{
       if(product.id === a.id)
@@ -43,11 +44,9 @@ export class CartService {
         this.cartItemList.splice(index,1);
       }
     })
-    this.productList.next(this.cartItemList);
   }
   removeAll()
   {
     this.cartItemList = [];
-    this.productList.next(this.cartItemList);
   }
 }

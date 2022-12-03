@@ -1,5 +1,9 @@
-body{animation: trans 1.5s;background:rgb(27, 26, 26);width: auto;height: 4000px;color:white;font-family: monospace;}
+body{animation: trans 1.5s;background:rgb(27, 26, 26);color:white;font-family: monospace;}
+
+
 .c1{animation: transl 5s alternate infinite}
+
+
 @keyframes trans 
 {
     from{opacity: 0;}

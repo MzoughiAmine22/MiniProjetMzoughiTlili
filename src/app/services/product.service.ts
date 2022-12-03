@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Product } from '../classes/product';
+import { identifierName } from '@angular/compiler';
 
 const URL = 'http://localhost:3500/products/';
 @Injectable({
@@ -30,8 +31,15 @@ export class ProductService {
   return this.http.put<Product>(URL+id,data);
  }
 
+ putVar(data:Product,id :number)
+ {
+  return this.http.patch<Product>(URL+id,data);
+ }
+
  deleteProduct(id:number)
  {
   return this.http.delete<Product>(URL+id);
  }
+
+ 
 }

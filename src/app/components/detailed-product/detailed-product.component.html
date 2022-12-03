@@ -6,22 +6,25 @@
     </div>
     <div class="div2" style="background-image: url('assets/looooo.png')" >
             <br>
+            <div>
             <div class="sdiv1">{{product?.libelle | uppercase}}</div>
             <br>
             <br>
             <div class="container sdiv2" style="margin-left:40px">
-                Standard Edition {{product?.platform}}
+                Manufacture : {{product?.manufacture}}
+                <br>
+                <br>
+                Platform : {{product?.platform}}
                 <br>
                 <br>
                 Price : {{product?.price | number:'.3'}} TND
                 <br>
                 <br>
-                <div [ngClass]="{'bg':true,'bg-success':product?.availability,'bg-danger':!product?.availability}" style="width:170px;border-radius:5px">
-                    &nbsp; In-Stock
+                <div [ngClass]="{'bg':true,'bg-success':product?.availability,'bg-danger':!product?.availability}" style="width:20px;border-radius:50px;height: 20px;">
                 </div>
-                <br>
-                <br>
-                <button class="btt" (click)="addtocart(product)" mat-raised-button >Add to cart</button>
+                <div style="position: relative;bottom:28px;left:10px">&nbsp; STOCK </div>
+                <button class="btt" (click)="addtocart(product)" mat-raised-button [disabled]="!product?.availability" >Add to cart</button>
+            </div>
             </div>
     </div>
     <div class="demo-button-container sdiv3">
@@ -36,26 +39,55 @@
         <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;">{{product?.description}}</div>
     </div>
     <div class="div4" style="color: white;background-image: url('assets/looooo.png')" *ngIf="noDiv2">
-        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;"><div>{{product.releaseDate | date}}</div></div>
+        <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 40px;margin-bottom: 40px;">
+            <div style="position:relative;left:120px">
+                <table>
+                    <tr>
+                        <th>Release Date</th><td>{{product?.releaseDate | date}}</td>
+                    </tr>
+                    <tr>
+                        <th>Manufacture</th><td>{{product?.manufacture}}</td>
+                    </tr>
+                    <tr>
+                        <th>Platform</th><td>{{product?.platform}}</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
     </div>
     <br>
     <div class="div5" style="background-image: url('assets/looooo.png')">
         <div style="margin-left:10px;margin-right:10px;text-align:justify;margin-top: 20px;margin-bottom: 20px;" >
-        Reviews  <br><br>
-    <span *ngFor="let p of product?.comments" >{{p.name}} : {{p.message}}</span>
-<br>
-<br>
-        <form>
-            Add a review <br><br>
-            <mat-form-field appearance="outline" style="width: 400px;"  >
-                <mat-label style="color:white">Comment</mat-label>
-                <input matInput type="text">
-            </mat-form-field>&nbsp;
-            <mat-form-field appearance="outline" style="width: 400px;"  >
-                <mat-label style="color:white">Name</mat-label>
-                <input matInput type="text">
-            </mat-form-field>
-        </form>
+        Reviews  : <br><br>
+        <div  class="container">
+            <div *ngIf="product?.comments.length==0" >No reviews yet</div>
+            <div class="row" >
+            <span class=" col-4" *ngFor="let p of product?.comments" >
+                <div  class="card" style="color: black;text-align: center;" >
+                    <span style="display: inline;"><img src="assets/user.png" style="width: 50px;height:50px" /><span style="position: relative;top:7px" > {{p?.name}}</span></span> 
+                       {{p?.message}}
+                </div>
+                <br>
+            </span>
+            </div>
+            <br><br><button  (click)="clickCom()" mat-raised-button color="success" >ADD REVIEW</button>
+            <div  *ngIf="noDiv3">
+                <form [formGroup]="commentForm">
+                    <br>
+                    <mat-form-field appearance="outline" style="width: 620px;">
+                        <mat-label style="color:white"  >Comment</mat-label>
+                        <input  matInput type="text" formControlName="message">
+                    </mat-form-field>&nbsp;
+                    <mat-form-field appearance="outline" style="width: 620px;">
+                        <mat-label style="color:white">Name</mat-label>
+                        <input matInput type="text" formControlName="name" >
+                    </mat-form-field>
+                    <br>
+                    <button (click)="addcomment()" mat-raised-button color="success" >SUBMIT REVIEW</button>
+                </form>
+            </div>
+            </div>  
         </div>
     </div>
     </div>

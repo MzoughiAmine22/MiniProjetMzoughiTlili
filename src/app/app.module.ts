@@ -54,7 +54,8 @@ import { RouterModule } from '@angular/router';
     AdminComponent,
     FooterComponent,
     DialogComponent,
-    ChangePassComponent
+    ChangePassComponent,
+    
   ],
   imports: [
     BrowserModule,

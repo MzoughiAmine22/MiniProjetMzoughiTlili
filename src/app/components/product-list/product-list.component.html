@@ -1,6 +1,6 @@
-<body style="background:url('assets/loooo.png')" >
+<body style="background:url('assets/loooo.png');" >
     <br>
-<div class="container">
+<div class="container" #ok>
     <br>
     <mat-toolbar style="background:url('assets/loooo.png');">
         <div  style="border-bottom: solid;border-color: #f4511e;font-size:35px ;display: flex;color:rgb(255, 255, 255);font-family: monospace;font-weight: 500;height:100px" >
@@ -22,6 +22,9 @@
     <div *ngFor="let p of filterCategory | filter:searchKey:'libelle'" class="col-3 ho"  >
         <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
     </div>
+</div>
+<div style="text-align: right;">
+    <button style="position: relative;bottom:10px;left:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="primary" ><span  class="material-symbols-outlined">arrow_upward</span></button>
 </div>
 </div>
 </body>

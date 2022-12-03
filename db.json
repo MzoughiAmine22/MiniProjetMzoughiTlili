@@ -5,11 +5,12 @@
       "category": "Console",
       "price": "1500",
       "photo": "assets/ps5_.png",
-      "platform": "ps5",
+      "platform": "PS5",
       "manufacture": "Sony",
-      "availability": true,
-      "description": "type",
+      "availability": "true",
+      "description": "lets go man",
       "releaseDate": "2022-11-22T23:00:00.000Z",
+      "comments": [],
       "id": 2
     },
     {
@@ -18,7 +19,7 @@
       "price": "70",
       "description": "God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released worldwide on November 9, 2022, for the PlayStation 4 and PlayStation 5, marking the first cross-gen release in the God of War series.",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/godrag.png",
       "manufacture": "Santa Monica Studio",
@@ -35,9 +36,10 @@
       "category": "Game",
       "price": "120",
       "photo": "assets/demon's souls ps5.png",
-      "platform": "ps5",
+      "platform": "PS5",
       "manufacture": "FromSoftware",
       "availability": false,
+      "comments": [],
       "description": "type",
       "releaseDate": "2022-11-15T23:00:00.000Z",
       "id": 4
@@ -48,7 +50,7 @@
       "price": "180",
       "description": "Best Game Ever",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/ER2.png",
       "manufacture": "FromSoftware",
@@ -61,40 +63,35 @@
       ]
     },
     {
-      "id": 7,
       "libelle": "Forza Horizon 5",
-      "price": "130",
-      "description": "Racing",
       "category": "Game",
-      "platform": "Xbox Series X",
-      "availability": true,
+      "price": "130",
       "photo": "assets/fh5.png",
+      "platform": "Xbox Series X",
       "manufacture": "Microsoft",
-      "releaseDate": "",
+      "availability": "true",
+      "description": "type",
       "comments": [
         {
-          "name": "Zied",
-          "message": ""
+          "name": "Wafa",
+          "message": "Im a forza horizon fan"
         }
-      ]
+      ],
+      "releaseDate": "2022-12-21T23:00:00.000Z",
+      "id": 7
     },
     {
-      "id": 8,
       "libelle": "Elden Ring",
-      "price": "90",
-      "description": "",
       "category": "Game",
-      "platform": "ps4",
-      "availability": true,
+      "price": "90",
       "photo": "assets/eldenRing.png",
+      "platform": "PS4",
       "manufacture": "FromSoftware",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "Farah",
-          "message": ""
-        }
-      ]
+      "availability": false,
+      "comments": [],
+      "description": "nice",
+      "releaseDate": "2022-12-20T23:00:00.000Z",
+      "id": 8
     },
     {
       "id": 9,
@@ -102,7 +99,7 @@
       "price": "130",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/codCW.png",
       "manufacture": "Activision",
@@ -120,7 +117,7 @@
       "price": "80",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/codMW1.png",
       "manufacture": "Activision",
@@ -138,7 +135,7 @@
       "price": "100",
       "description": "Horse",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/rdr2.png",
       "manufacture": "Rockstar Games",
@@ -156,7 +153,7 @@
       "price": "120",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/spi.png",
       "manufacture": "Insomniac",
@@ -174,7 +171,7 @@
       "price": "130",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/TLOU.png",
       "manufacture": "Naughty Dog",
@@ -192,7 +189,7 @@
       "price": "100",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/got.png",
       "manufacture": "Sony",
@@ -210,7 +207,7 @@
       "price": "100",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": true,
       "photo": "assets/GOS.png",
       "manufacture": "Sucker Punch Productions",
@@ -228,7 +225,7 @@
       "price": "100",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/nfs.png",
       "manufacture": "Ghost",
@@ -246,7 +243,7 @@
       "price": "100",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/fifa.png",
       "manufacture": "EA",
@@ -300,7 +297,7 @@
       "price": "90",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/sr.png",
       "manufacture": "Volitition",
@@ -336,7 +333,7 @@
       "price": "80",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": true,
       "photo": "assets/tad.png",
       "manufacture": "Selectar Play",
@@ -372,7 +369,7 @@
       "price": "120",
       "description": "",
       "category": "Game",
-      "platform": "ps5",
+      "platform": "PS5",
       "availability": false,
       "photo": "assets/av.png",
       "manufacture": "Marvel",
@@ -390,7 +387,7 @@
       "price": "40",
       "description": "",
       "category": "Game",
-      "platform": "ps4",
+      "platform": "PS4",
       "availability": false,
       "photo": "assets/blood.png",
       "manufacture": "FromSoftware",
@@ -403,22 +400,17 @@
       ]
     },
     {
-      "id": 25,
       "libelle": "Call of Duty Vanguard",
-      "price": "130",
-      "description": "",
       "category": "Game",
-      "platform": "Xbox Series X",
-      "availability": false,
+      "price": 120,
       "photo": "assets/cod.png",
+      "platform": "Xbox Series X",
       "manufacture": "Activision",
+      "comments": [],
+      "availability": "true",
+      "description": "type",
       "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
+      "id": 25
     },
     {
       "id": 27,
@@ -426,7 +418,8 @@
       "category": "Game",
       "price": 80,
       "photo": "assets/god3.png",
-      "platform": "ps4",
+      "platform": "PS4",
+      "comments": [],
       "manufacture": "Santa Monica Studios",
       "availability": true,
       "description": "god of war 3 good",
@@ -437,7 +430,8 @@
       "category": "Game",
       "price": 80,
       "photo": "assets/gta.png",
-      "platform": "ps4",
+      "platform": "PS4",
+      "comments": [],
       "manufacture": "Rockstar",
       "availability": false,
       "description": "Cool Game",
@@ -451,6 +445,7 @@
       "photo": "assets/mine.png",
       "platform": "Xbox One",
       "manufacture": "Microsoft",
+      "comments": [],
       "availability": false,
       "description": "cool game",
       "releaseDate": "2010-06-16T23:00:00.000Z",
@@ -461,11 +456,29 @@
       "category": "Game",
       "price": 120,
       "photo": "assets/nfsu.png",
-      "platform": "ps5",
+      "platform": "PS5",
       "manufacture": "Activision",
       "availability": true,
-      "description": "Need for Speed Unbound",
+      "description": "The world is your canvas in Need for Speed™ Unbound. Prove you have what it takes to win The Grand, Lakeshore's ultimate street racing challenge. Across 4 intense weeks of racing, earn enough cash to enter weekly qualifiers, beat the competition, and make your mark on the street racing scene while outdriving and outsmarting the cops. Pack your garage with precision-tuned, custom rides and light up the streets with your unique style, exclusive fits, and a vibrant global soundtrack led by A$AP Rocky and AWGE that bumps in every corner of the world. Express yourself to the fullest with the freshest new art styles and signature tags that represent what you're all about. With separate single- and multiplayer campaigns, this latest edition in the Need for Speed franchise from Criterion Games™ delivers hours of electric, adrenaline-pumping action.",
       "releaseDate": "2022-12-01T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "Wafa",
+          "message": "Message"
+        },
+        {
+          "name": "Yosra",
+          "message": "interesting"
+        },
+        {
+          "name": "Farah",
+          "message": "Lets go"
+        },
+        {
+          "name": "Farah",
+          "message": "Lets go"
+        }
+      ],
       "id": 30
     },
     {
@@ -476,6 +489,7 @@
       "platform": "Xbox One",
       "manufacture": "Dimps",
       "availability": false,
+      "comments": [],
       "description": "cool",
       "releaseDate": "2016-10-25T23:00:00.000Z",
       "id": 32
@@ -485,10 +499,11 @@
       "category": "Game",
       "price": 90,
       "photo": "assets/star1.png",
-      "platform": "ps4",
+      "platform": "PS4",
       "manufacture": "EA",
-      "availability": false,
+      "availability": "true",
       "description": "type",
+      "comments": [],
       "releaseDate": "2016-03-02T23:00:00.000Z",
       "id": 33
     },
@@ -497,19 +512,37 @@
       "category": "Game",
       "price": 150,
       "photo": "assets/grand.png",
-      "platform": "ps4",
+      "platform": "PS4",
       "manufacture": "Sony",
-      "availability": true,
+      "availability": false,
       "description": "type",
       "releaseDate": "2022-11-09T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "nice",
+          "message": "help"
+        }
+      ],
       "id": 34
+    },
+    {
+      "libelle": "Need for Speed Payback",
+      "category": "Game",
+      "price": 70,
+      "photo": "assets/nfsp.png",
+      "platform": "PS4",
+      "manufacture": "ACTIVISION",
+      "availability": true,
+      "description": "...",
+      "releaseDate": "2022-12-27T23:00:00.000Z",
+      "id": 35
     }
   ],
   "signupUsers": [
     {
       "fullname": "amine",
       "email": "nice@gmail.com",
-      "password": "admin",
+      "password": "123",
       "mobile": 787745878,
       "admin": true,
       "id": 1

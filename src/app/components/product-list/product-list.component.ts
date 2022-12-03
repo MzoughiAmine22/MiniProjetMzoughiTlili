@@ -45,4 +45,9 @@ export class ProductListComponent implements OnInit {
       }
     })
   }
+
+  pageUp()
+  {
+    window.scroll(0,0);
+  }
 }
