@@ -9,6 +9,8 @@ import { ProductService } from 'src/app/services/product.service';
   styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent implements OnInit {
+
+ 
   searchKey:string="";
   searchTerm:string="";
   search(event:any)
@@ -16,7 +18,7 @@ export class ProductListComponent implements OnInit {
     this.searchTerm = (event.target as HTMLInputElement).value;
     this.searchKey=this.searchTerm;
   }
-  constructor(private fb:FormBuilder,private productService:ProductService) { }
+  constructor(private productService:ProductService) { }
   products:Product[];
   filterCategory:Product[];
   ngOnInit(): void 
@@ -24,16 +26,6 @@ export class ProductListComponent implements OnInit {
     this.productService.getProducts().subscribe(data => {
        this.products = data;
        this.filterCategory=data;
-       this.products.forEach((a:any)=>{
-        if(a.category=='Game')
-        {
-          a.category='Game';
-        }
-        else
-        {
-          a.category='Console';
-        }
-       })
       });
   }
   categ(category:string)

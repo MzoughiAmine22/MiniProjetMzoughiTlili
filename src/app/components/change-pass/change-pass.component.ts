@@ -1,7 +1,7 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { SignupUsers } from 'src/app/classes/signup-users';
 import { CharService } from 'src/app/services/char.service';
 
 @Component({
@@ -10,37 +10,44 @@ import { CharService } from 'src/app/services/char.service';
   styleUrls: ['./change-pass.component.scss']
 })
 export class ChangePassComponent implements OnInit {
-  adminStuff:any;
-  constructor(private fb:FormBuilder,private http:HttpClient,private charServ:CharService ,private router:Router ) { }
-  passForm
+  user:SignupUsers;
+  
+  constructor(private fb:FormBuilder,private charServ:CharService ,private router:Router ) { }
+  passForm:FormGroup;
   ngOnInit(): void {
     this.passForm=this.fb.group({
       email:['',Validators.required],
       oldPass: ['',Validators.required],
       password:['',Validators.required]
     });
-    this.http.get<any>("http://localhost:3500/signupUsers/1")
-    .subscribe(res =>{
-      this.adminStuff=res
-      });
+    this.passForm.get('email')?.setValue('ex');
+    this.passForm.get('oldPass')?.setValue('ex');
+    this.passForm.get('password')?.setValue('ex');
+  }
+  sub()
+  {
+    this.charServ.getUser(this.passForm?.value['email']).subscribe(res =>{
+      this.user=res;
+    });
   }
   changePass()
   {
-    if(this.passForm.valid && this.passForm.value['email'] == this.adminStuff.email && this.passForm.value['oldPass']==this.adminStuff.password)
+    this.sub();
+    if(this.passForm?.valid && this.passForm?.value['email'] == this.user[0]?.email && this.passForm?.value['oldPass']==this.user[0]?.password)
     {
-      this.adminStuff.password=this.passForm.value['password'];
-      this.charServ.changerMdp(this.adminStuff).subscribe(res=>
+      this.user[0].password=this.passForm?.value['password'];
+      this.charServ.changerMdpU(this?.user[0],this.user[0]?.id).subscribe(()=>
         {
         alert('password changed'),
-        this.passForm.reset(),
-        this.router.navigate(['landing'])
+        this.passForm?.reset(),
+        this.router.navigate(['login'])
         }
         );  
     }
     else
     {
       alert('Invalid');
-      this.passForm.reset();
+      this.passForm?.reset();
     }
   }
 }

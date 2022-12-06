@@ -22,16 +22,19 @@
                             <td>{{p.libelle}}</td>
                             <td><img [src]="p.photo" width="150px" height="150px"/></td>
                             <td>{{p.description}}</td>
-                            <td>{{p.price}}</td>
+                            <td>{{p.price}} TND</td>
                             <td>
-                                <button (click)="removeItem(p)" class="btn btn-danger"><span class="material-symbols-outlined">delete</span></button>
+                                <button (click)="removeItem(p)" mat-raised-button color="warn"  ><span class="material-symbols-outlined">delete</span></button>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             </div>
-            <span>Total : {{grandTotal}}</span>
+            <br>
+            <span  style="position: relative;top:6px;color:#f4511e" class="material-symbols-outlined">apps</span><span style="margin-left:10px ;" >Total <span style="color: #f4511e;">:</span> {{grandTotal}} TND</span>
+            <button (click)="emptycart()" style="position: relative;left:1050px" color="warn" mat-raised-button ><span style="position: relative;top:-2px;right:5px;" class="material-symbols-outlined">delete_forever</span>Clear Cart</button>
+            <br>
         </div>
     </ng-container>
     <ng-container *ngIf="products.length==0"   >
@@ -49,6 +52,6 @@
     </div>
     </ng-container>
     <div style="text-align: right;">
-        <button style="position: relative;bottom:10px;right:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="success" ><span  class="material-symbols-outlined">arrow_upward</span></button>
+        <button style="position: relative;top:50px;right:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="success" ><span  class="material-symbols-outlined">arrow_upward</span></button>
     </div>
 </body>

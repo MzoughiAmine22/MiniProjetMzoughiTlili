@@ -1,0 +1,39 @@
+<body style="background:url('assets/loooo.png');height:621px;font-family: monospace;" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="background: url('assets/ga2.png');">
+                    <div class="">
+                      <div style="text-align:center">
+                        <h1>Change Admin Password</h1>
+                      </div>
+                        <form [formGroup]="passForm" (ngSubmit)="changePass()">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Enter your Email address</label>
+                                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword2">Enter the old Password</label>
+                              <input formControlName="oldPass" type="password" class="form-control" id="exampleInputPassword2" aria-describedby="emailHelp" placeholder="Enter your old Password">
+                            </div>
+                            <div class="form-group">
+                              <br>
+                              <label for="exampleInputPassword1">Enter the new Password</label>
+                              <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your new Password">
+                            </div>
+                            <br>
+                            <div style="text-align:center">
+                            <input type="submit" value="CHANGE PASSWORD" class="btt" >
+                            </div>
+                          </form>
+                          <br>
+                          <div style="color:white;text-align: center;">
+                            <a routerLink="/admin">GO BACK TO ADMIN PAGE</a>
+                          </div>
+                          <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

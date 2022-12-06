@@ -13,6 +13,14 @@ export class SignupComponent implements OnInit {
   signupForm : FormGroup
   constructor(private fb:FormBuilder,private http:HttpClient,private router:Router) { }
 
+  get email()
+  {
+    return this.signupForm.get('email');
+  }
+  get password()
+  {
+    return this.signupForm.get('password');
+  }
   signUp()
   {
     if(this.signupForm.valid)

@@ -31,6 +31,7 @@ export class LandingPageComponent implements OnInit {
     this.proSer.getProducts().subscribe(data => { this.products = data});
   }
 
+  
   pageUp()
   {
     window.scroll(0,0);

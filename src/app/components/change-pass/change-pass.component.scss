@@ -1,3 +1,10 @@
+body{animation: trans .5s;}
+
+@keyframes trans 
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 .card
 {
 
@@ -25,3 +32,6 @@ a:hover{color:black}
 .bt{border-radius: 5px;border:1px solid black;padding: 10px;transition: .2s;}
 
 .bt:hover{background-color: #fff;transition: .2s;}
+
+.btt{background-color: white;transition: .5s;color:black;border-radius: 5px;border: 1px solid black;}
+ .btt:hover{background-color: black;color:#f4511e;transition: .5s;}

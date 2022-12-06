@@ -7,15 +7,14 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class RoleGuard implements CanActivate {
-  constructor(private authS:AuthService,private route:Router){}
+  constructor(private route:Router){}
   canActivate() {
     var role = localStorage.getItem("userType");
     if( role == "admin")
     {
       return true;
     }
-    alert('You do not have administrator rights');
-    this.route.navigate(['landing']);
+    this.route.navigate(['loginAdmin']);
     return false;
   }
   

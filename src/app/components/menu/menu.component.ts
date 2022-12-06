@@ -1,6 +1,4 @@
 import { Component,  HostBinding,  HostListener, OnInit  } from '@angular/core';
-import { CartService } from 'src/app/services/cart.service';
-
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -8,6 +6,22 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class MenuComponent implements OnInit {
   
+  hide()
+  {
+    if(localStorage.getItem('userType')=='admin')
+    {
+      return true;
+    }
+    return false;
+  }
+  hide2()
+  {
+    if(localStorage.getItem('userType')=='user')
+    {
+      return true;
+    }
+    return false;
+  }
 
   remove()
   {
@@ -17,11 +31,14 @@ export class MenuComponent implements OnInit {
 
   }
   constructor() { }
-  totalItem: number;
   ngOnInit(): void {
+    this.hide();
   }
   
-
+  desc()
+  {
+    localStorage.clear();
+  }
     
 
 }

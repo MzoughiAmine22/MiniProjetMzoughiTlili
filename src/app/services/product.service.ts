@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Product } from '../classes/product';
 import { identifierName } from '@angular/compiler';
@@ -41,5 +41,12 @@ export class ProductService {
   return this.http.delete<Product>(URL+id);
  }
 
+ getCurrency(have: String, want: String): Observable<Number> {
+  var adreqHeader = new HttpHeaders({
+    'X-RapidAPI-Key': '10281b1538msh9a7b91ebc042434p193852jsn4478e61a4d09',
+    'X-RapidAPI-Host': 'currency-exchange.p.rapidapi.com',
+  });
+  return this.http.get<Number>(`https://currency-exchange.p.rapidapi.com/exchange?from=${have}&to=${want}`,{ headers: adreqHeader });
+ }
  
 }

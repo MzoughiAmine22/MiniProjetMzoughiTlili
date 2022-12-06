@@ -36,6 +36,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { ChangePassComponent } from './components/change-pass/change-pass.component';
 import { RouterModule } from '@angular/router';
+import { LoginAdminComponent } from './components/login-admin/login-admin.component';
+import { ChangerPassAdminComponent } from './components/changer-pass-admin/changer-pass-admin.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import { UsersComponent } from './components/users/users.component';
+
 
 @NgModule({
   declarations: [
@@ -55,12 +61,16 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     DialogComponent,
     ChangePassComponent,
+    LoginAdminComponent,
+    ChangerPassAdminComponent,
+    UsersComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatListModule,
     MatMenuModule,
     MatIconModule,
     RouterModule,
@@ -75,6 +85,7 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    MatSidenavModule,
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,

@@ -1,3 +1,11 @@
+body{animation: trans .5s;}
+
+@keyframes trans 
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
 .card
 {
 
@@ -5,11 +13,9 @@
     width:500px;
     padding:40px;
     position: absolute;
-    top:53%;
+    top:60%;
     left:50%;
     transform: translate(-50%,-50%);
-    //background: rgb(196, 204, 209);
-    //background: linear-gradient(90deg,rgb(43, 44, 45) 0%,rgb(212, 102, 33)100%);
 }
 .card h1,h6{color:white}
 label {color: white;}
@@ -25,3 +31,13 @@ a:hover{color:black}
 .bt{border-radius: 5px;border:1px solid black;padding: 10px;transition: .2s;}
 
 .bt:hover{background-color: #fff;transition: .2s;}
+
+.alert-danger
+{
+    background-color: black;color:white
+}
+
+.btt{background-color: white;transition: .5s;color:black;border-radius: 5px;border: 1px solid black;}
+ .btt:hover{background-color: black;color:#f4511e;transition: .5s;}
+
+ 

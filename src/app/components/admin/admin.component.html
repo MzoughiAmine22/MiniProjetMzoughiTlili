@@ -1,13 +1,22 @@
 <body style="background:url('assets/loooo.png');" >
     <br>
+    
     <div style="position: relative;top:40px;text-align: center;">
         <h1 >Admin Interface</h1><br>
         <span style="position: relative;bottom:20px" class="material-symbols-outlined">admin_panel_settings</span>
+        <br><br><br><br>
     </div>
+    <mat-toolbar style="margin-left: 410px;width: 200px;background: url('asstes/loooo.png');border-radius: 20px;" >
+      <div  style="background:url('assets/loooo.png');border-radius: 20px;;position: relative ;left:40px;border: solid;border-color: #f4511e;font-size:35px ;display: flex;color:rgb(255, 255, 255);font-family: monospace;font-weight: 500;height:100px" >
+          <button mat-button routerLink="users" ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px"  >group</span>USERS</span></button>
+          <button mat-button (click)="clear()" ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">power_settings_new</span>LOG OUT</span></button>
+          <button mat-button routerLink="passAd"><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">manage_accounts</span>CHANGE PASS</span></button>
+      </div>
+  </mat-toolbar>
     <div style="display: inline;position: relative;top: 94px;;margin-left: 1258px;">
         <button mat-raised-button (click)="openDialog()"><span style="position:relative;right:5px;bottom:3px;color:#f4511e"  class="material-symbols-outlined">add</span>ADD PRODUCT</button>&nbsp;
     </div>
-    <div class="container">
+    <div class="container" >
     <div style="margin-top:40px ;">
         <div style="border-radius: 20px;">
         <mat-form-field  >
@@ -18,21 +27,19 @@
           <div class="mat-elevation-z8" >
             <table mat-table [dataSource]="dataSource" matSort>
           
-              <!-- ID Column -->
+           
 
               <ng-container matColumnDef="libelle">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Name </th>
                 <td mat-cell *matCellDef="let row"> {{row.libelle}} </td>
               </ng-container>
           
-              <!-- Progress Column -->
-
+             
               <ng-container matColumnDef="platform">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Platform </th>
                 <td mat-cell *matCellDef="let row"> {{row.platform}} </td>
               </ng-container>
           
-              <!-- Name Column -->
 
               <ng-container matColumnDef="category">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Category </th>
@@ -44,27 +51,23 @@
                 <td mat-cell *matCellDef="let row"> {{row.photo}} </td>
               </ng-container>
           
-              <!-- Fruit Column -->
 
               <ng-container matColumnDef="price">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Price </th>
                 <td mat-cell *matCellDef="let row"> {{row.price | number:'.3'}} TND </td>
               </ng-container>
 
-              <!--some-->
               <ng-container matColumnDef="releaseDate">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Release Date </th>
                 <td mat-cell *matCellDef="let row"> {{row.releaseDate | date}} </td>
               </ng-container>
 
-              <!--ss-->
 
               <ng-container matColumnDef="manufacture">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Manufacture </th>
                 <td mat-cell *matCellDef="let row"> {{row.manufacture}} </td>
               </ng-container>
 
-              <!---->
 
               <ng-container matColumnDef="availability">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Product Availability </th>
@@ -95,12 +98,11 @@
                 <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
               </tr>
             </table>
-          
             <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
           </div>
     </div>
     <br><br>
     <br><br>
-    <br><br>
+    <br><br> 
     </div>
 </body>

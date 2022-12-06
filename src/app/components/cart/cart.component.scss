@@ -1,4 +1,4 @@
-body{animation: trans 1.5s;background:rgb(27, 26, 26);color:white;font-family: monospace;height: auto;min-height: 100%;}
+body{animation: trans .5s;background:rgb(27, 26, 26);color:white;font-family: monospace;height: auto;min-height: 100%;}
 
 
 .c1{animation: transl 5s alternate infinite}
@@ -43,3 +43,5 @@ body{animation: trans 1.5s;background:rgb(27, 26, 26);color:white;font-family: m
     from{transform: translateY(5px);}
     to{transform: translatY(-5px);}
  }
+
+ .mat-warn{background-color: #f4511e;}

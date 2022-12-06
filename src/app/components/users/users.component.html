@@ -1,0 +1,32 @@
+<div style="background: url('assets/loooo.png') ;">
+    <br><br>
+    <br><br>
+    <div class="container">
+    <table class="table" style="background-color: white;border-color:#f4511e ;width: 100%; " >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">USER NAME</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">PASSWORD</th>
+            <th scope="col">MOBILE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of users;index as i" >
+            <th scope="row">{{s.id}}</th>
+            <td>{{s.fullname}}</td>
+            <td>{{s.email}}</td>
+            <td><input type="password"  [value]="s.password" style="border-style:none;max-width: 23.5px;" class="pass" readonly /></td>
+            <td>{{s.mobile}}</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <br><br>
+      <br><br>
+      <div style="text-align: center;"><button routerLink="../../admin" mat-raised-button color="warn" >Back To main Admin Page</button></div>
+      <br><br>
+      <br><br>
+</div>

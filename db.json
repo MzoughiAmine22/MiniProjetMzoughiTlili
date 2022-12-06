@@ -4,32 +4,19 @@
       "libelle": "PlayStation 5",
       "category": "Console",
       "price": "1500",
-      "photo": "assets/ps5_.png",
+      "photo": "assets/ps5e.png",
       "platform": "PS5",
       "manufacture": "Sony",
-      "availability": "true",
-      "description": "lets go man",
-      "releaseDate": "2022-11-22T23:00:00.000Z",
-      "comments": [],
-      "id": 2
-    },
-    {
-      "id": 3,
-      "libelle": "God of War Ragnorok",
-      "price": "70",
-      "description": "God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released worldwide on November 9, 2022, for the PlayStation 4 and PlayStation 5, marking the first cross-gen release in the God of War series.",
-      "category": "Game",
-      "platform": "PS5",
       "availability": true,
-      "photo": "assets/godrag.png",
-      "manufacture": "Santa Monica Studio",
-      "releaseDate": "",
+      "description": "The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020, in Australia, Japan, New Zealand, North America, and South Korea, with worldwide release following a week later. The PS5 is part of the ninth generation of video game consoles, along with Microsoft's Xbox Series X and Series S consoles, which were released in the same month.\n\nThe base model includes an optical disc drive compatible with Ultra HD Blu-ray discs. The Digital Edition lacks this drive, allowing it to serve as a lower-cost model for those who prefer to buy games through digital download. The two variants were launched simultaneously.\n\nThe PlayStation 5's main hardware features include a solid-state drive customized for high-speed data streaming to enable significant improvements in storage performance, an AMD GPU capable of 4K resolution display at up to 120 frames per second, hardware-accelerated ray tracing for realistic lighting and reflections, and the Tempest Engine allowing for hardware-accelerated 3D audio effects. Other features include the DualSense controller with haptic feedback and backward compatibility with the majority of PlayStation 4 and PlayStation VR games.",
+      "releaseDate": "2020-11-11T23:00:00.000Z",
       "comments": [
         {
-          "name": "Amine",
-          "message": "I recommend this game !"
+          "name": "Idriss",
+          "message": "very expensive"
         }
-      ]
+      ],
+      "id": 2
     },
     {
       "libelle": "Demon's Souls Remake",
@@ -39,45 +26,45 @@
       "platform": "PS5",
       "manufacture": "FromSoftware",
       "availability": false,
+      "description": "From PlayStation Studios and Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls. Entirely rebuilt from the ground up and masterfully enhanced, this remake introduces the horrors of a fog-laden, dark fantasy land to a whole new generation of gamers. Those who’ve faced its trials and tribulations before, can once again challenge the darkness in stunning visual quality with incredible performance.\n\nIn his quest for power, the 12th King of Boletaria, King Allant channelled the ancient Soul Arts, awakening a demon from the dawn of time itself, The Old One. With the summoning of The Old One, a colourless fog swept across the land, unleashing nightmarish creatures that hungered for human souls. Those whose souls were stripped from them, lost their minds – left only with the desire to attack the sane that remained.\n\nNow, Boletaria is cut off from the outside world, and the knights who dare penetrate the deep fog to free the land from its plight, are never seen again. As a lone warrior who has braved the baneful fog, you must face the hardest of challenges to earn the title “Slayer of Demons” and send The Old One back to its slumber.",
+      "releaseDate": "2020-11-11T23:00:00.000Z",
       "comments": [],
-      "description": "type",
-      "releaseDate": "2022-11-15T23:00:00.000Z",
       "id": 4
     },
     {
-      "id": 5,
       "libelle": "Elden Ring",
-      "price": "180",
-      "description": "Best Game Ever",
       "category": "Game",
-      "platform": "PS5",
-      "availability": true,
+      "price": "180",
       "photo": "assets/ER2.png",
+      "platform": "PS5",
       "manufacture": "FromSoftware",
-      "releaseDate": "",
+      "availability": true,
+      "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. The game was released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25. In the game, players control a customizable player character on a journey to repair the titular Elden Ring and become the new Elden Lord. The game is presented through a third-person perspective, with players freely roaming its interactive open world. Gameplay elements include combat using several types of weapons and magic spells, horseback riding, and crafting.\n\nFromSoftware wanted to create an open-world game with gameplay similar to Dark Souls, intending Elden Ring to act as an evolution of the first game in the series. Miyazaki admired Martin's work and hoped his contributions would produce a more accessible narrative than FromSoftware's previous games. Elden Ring received critical acclaim for its open-world, gameplay systems, and setting, with criticism going towards its technical performance upon release. The game won several awards, including Game of the Year, and had sold more than 17.5 million copies by October 2022.",
+      "releaseDate": "2022-02-24T23:00:00.000Z",
       "comments": [
         {
           "name": "user",
           "message": ""
         }
-      ]
+      ],
+      "id": 5
     },
     {
-      "libelle": "Forza Horizon 5",
-      "category": "Game",
-      "price": "130",
+      "libelle": "Forza Hor",
+      "category": "Console",
+      "price": 200,
       "photo": "assets/fh5.png",
-      "platform": "Xbox Series X",
-      "manufacture": "Microsoft",
-      "availability": "true",
-      "description": "type",
+      "platform": "Xbox test",
+      "manufacture": "huawei",
+      "availability": false,
+      "description": "Validation",
+      "releaseDate": "2022-12-11T23:00:00.000Z",
       "comments": [
         {
           "name": "Wafa",
           "message": "Im a forza horizon fan"
         }
       ],
-      "releaseDate": "2022-12-21T23:00:00.000Z",
       "id": 7
     },
     {
@@ -88,316 +75,291 @@
       "platform": "PS4",
       "manufacture": "FromSoftware",
       "availability": false,
-      "comments": [],
-      "description": "nice",
-      "releaseDate": "2022-12-20T23:00:00.000Z",
+      "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. The game was released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25. In the game, players control a customizable player character on a journey to repair the titular Elden Ring and become the new Elden Lord. The game is presented through a third-person perspective, with players freely roaming its interactive open world. Gameplay elements include combat using several types of weapons and magic spells, horseback riding, and crafting.\n",
+      "releaseDate": "2022-02-24T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "Amine",
+          "message": "One of the best games EVER created !!"
+        },
+        {
+          "name": "Yosra",
+          "message": "Wow Amazing Game !! I cannot believe it !!"
+        }
+      ],
       "id": 8
     },
     {
-      "id": 9,
       "libelle": "Call of Duty Cold War",
-      "price": "130",
-      "description": "",
       "category": "Game",
-      "platform": "PS5",
-      "availability": true,
+      "price": "130",
       "photo": "assets/codCW.png",
+      "platform": "PS5",
       "manufacture": "Activision",
-      "releaseDate": "",
+      "availability": false,
+      "description": "Call of Duty: Black Ops Cold War is a 2020 first-person shooter video game developed by Treyarch and Raven Software and published by Activision. It was released worldwide on November 13, 2020, for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S. It serves as the sixth installment in the Black Ops series and the seventeenth installment in the overall Call of Duty series. The game is the second Call of Duty title since 2011's Call of Duty: Modern Warfare 3 to be co-developed by two studios.\n\nBlack Ops Cold War's campaign is set during the early 1980s of the Cold War, taking place between Call of Duty: Black Ops (2010) and Call of Duty: Black Ops II (2012) chronologically. It is centered around a pursuit of the alleged Soviet spy Perseus, whose stated goal is to subvert the United States and tilt the balance of power toward the Soviet Union. For the campaign, the player takes control of \"Bell\", who is recruited by CIA officer Russell Adler into a multinational task force created to hunt down Perseus. The campaign also sees the return of Black Ops characters Alex Mason, Frank Woods, and Jason Hudson, with Mason also being the playable character in certain missions. The game's multiplayer introduced new game modes as well as new map dynamics and elements, carrying over several design choices introduced in Call of Duty: Modern Warfare.[2] It features a seasonal content system similar to Modern Warfare, which includes a battle pass as well as free maps and weapons added every season. Cold War also features narrative tie-ins to Modern Warfare via the campaign and multiplayer, establishing a shared universe across multiple Call of Duty sub-series.\n\nThe game was originally developed by Raven and Sledgehammer Games and not intended to be an entry in the Black Ops subseries. However, the development suffered from disagreements among the two teams, resulting in Activision placing Treyarch in charge of the game's development in 2019, with Raven acting as a co-developer to them. Marketing for the game began in August 2020 and was done in different forms, including certain content creators receiving slide projectors, puzzles made to be solved online by fans, and a website showcasing historical Cold War events. A public multiplayer beta for the game was also made live in October 2020. Black Ops Cold War received generally favorable reviews from critics, with praise for the campaign, multiplayer, and zombies, while criticizing its technical issues and lack of innovation. It became the best-selling game of 2020 in the US.",
+      "releaseDate": "2020-11-12T23:00:00.000Z",
       "comments": [
         {
           "name": "Yosra",
           "message": "nice"
         }
-      ]
+      ],
+      "id": 9
     },
     {
-      "id": 10,
       "libelle": "Call of Duty Modern Warefare ",
-      "price": "80",
-      "description": "",
       "category": "Game",
-      "platform": "PS4",
-      "availability": true,
+      "price": "80",
       "photo": "assets/codMW1.png",
+      "platform": "PS4",
       "manufacture": "Activision",
-      "releaseDate": "",
+      "availability": true,
+      "description": "Call of Duty: Modern Warfare is a 2019 first-person shooter game developed by Infinity Ward and published by Activision. Serving as the sixteenth overall installment in the Call of Duty series, as well as a reboot of the Modern Warfare sub-series, it was released on October 25, 2019, for PlayStation 4, Windows, and Xbox One.\n\nThe game takes place in a realistic and modern setting. The campaign follows a CIA officer and British SAS forces as they team up with rebels from the fictional country of Urzikstan, combating together against Russian Armed Forces who have invaded the country and the terrorist group Al-Qatala, while searching for a stolen shipment of chlorine gas. The game's Special Ops mode features cooperative play missions that follow on from the campaign. The multiplayer mode supports cross-platform multiplayer and cross-platform progression for the first time in the series. It has been reworked for gameplay to be more tactical and introduces new features, such as a Realism mode that removes the HUD as well as a form of the Ground War mode that now supports 64 players. A post-launch update introduces a free-to-play battle royale mode, Warzone, which was also marketed as a standalone title. Multiplayer also supports shared screen multiplayer. This mode includes bots, custom maps, custom game-modes and other creative game-interfering actions.\n\nInfinity Ward began working on the game soon after the release of their 2016 title Call of Duty: Infinite Warfare. They introduced an entirely new engine for the game, which allows for new performance enhancements such as more detailed environments and ray-tracing capabilities. For the campaign, they took influence from real-life conflicts, such as the Syrian Civil War and terrorist incidents that have occurred in London. For the multiplayer, they scrapped the franchise's traditional season pass and removed loot boxes, enabling them to distribute free post-launch content to the playerbase in the form of \"Seasons\".\n\nModern Warfare received praise for its gameplay, campaign, multiplayer, and graphics. Criticism focused on the handling of the campaign's subject matter, including the depiction of the Russian military, as well as balancing issues in the multiplayer. A sequel, titled Modern Warfare II, was released in 2022.",
+      "releaseDate": "2019-10-24T23:00:00.000Z",
       "comments": [
         {
           "name": "Amine",
           "message": "game of the year"
         }
-      ]
+      ],
+      "id": 10
     },
     {
-      "id": 11,
       "libelle": "Red Dead Redemption 2 ",
-      "price": "100",
-      "description": "Horse",
       "category": "Game",
-      "platform": "PS4",
-      "availability": true,
+      "price": "100",
       "photo": "assets/rdr2.png",
+      "platform": "PS4",
       "manufacture": "Rockstar Games",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "Amine",
-          "message": "game of the year"
-        }
-      ]
+      "availability": true,
+      "description": "Red Dead Redemption 2 is a western action-adventure game set in an open world environment and played from a third-person perspective, featuring single-player and online multiplayer components. The game has new features absent from the previous game. For example, new mechanics such as using a bow and arrow, dual-wielding revolvers, wading in water and using a canoe have all been introduced. Wildlife and hunting in the game have also improved.\n\nThe game focuses heavily on player choice for the story and missions. During IGN's First Look preview on the topic of how player choices can affect interactions and missions, Rob Nelson, Co-Studio Head at Rockstar North said: “We try to give you options within a lot of these missions to choose how you approach it, whether you'll send your buddies in first or whether you'll go in first.”\n\nPlayers can communicate with any NPC in ways much different from previous Rockstar games. They can choose options such as having a friendly chat, having a threatening chat in order to steal money from the NPC, or they can simply take out that character and loot the corpse.\n\nIn a further expansion of immersion, players need to take care of their equipment, such as their weapons, by cleaning them. In terms of character customization, players have the option of visiting a barber for a cut and style; however, the styles available to players depends on how much they have let their character's hair naturally grow over the course of the game. Characters will have different sets of clothes for different weather conditions, have to regularly eat and bathe, and actions that were once more automatic have been greatly expanded upon in detail, including skinning a kill and examining objects.",
+      "releaseDate": "2018-10-25T23:00:00.000Z",
+      "comments": [],
+      "id": 11
     },
     {
-      "id": 12,
       "libelle": "Spider-Man Miles Morales",
-      "price": "120",
-      "description": "",
       "category": "Game",
-      "platform": "PS5",
-      "availability": true,
+      "price": "120",
       "photo": "assets/spi.png",
+      "platform": "PS5",
       "manufacture": "Insomniac",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "Ismail",
-          "message": "nice"
-        }
-      ]
+      "availability": false,
+      "description": "Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. Based on the Marvel Comics character Miles Morales, it is inspired by both the character's decade-long comic book mythology and the 2018 animated film Spider-Man: Into the Spider-Verse—which helped popularize him. The game is a spin-off and successor to Marvel's Spider-Man (2018), and the second installment in Insomniac's Spider-Man series. The narrative focuses on Miles' struggle to balance the duties of his civilian persona and his role as the second Spider-Man when his new home, Harlem, is threatened by a war between the Roxxon Energy Corporation and a high-tech criminal army called the Underground, led by the mysterious Tinkerer.\n\nGameplay is presented from the third-person perspective with a primary focus on Miles' traversal and combat abilities. Miles can freely move around New York City, interacting with characters, undertaking missions, and unlocking new gadgets and suits by progressing through the main story or completing tasks. Outside the story, the player is able to complete side missions to unlock additional content and collectible items. Combat focuses on chaining attacks together and using the environment and webs to incapacitate numerous foes while avoiding damage.\n\nAnnounced at the PlayStation 5 reveal event in June 2020, the game was released as a launch title for the new console on November 12, 2020, in North America and Australia, and November 19 worldwide. A PlayStation 4 version was released the same day, lacking some of the advanced features of its next-gen counterpart such as ray-tracing or a 60 FPS performance mode, because of the console's technical limitations. A Microsoft Windows version was released on November 18, 2022. The game received praise for its combat, narrative, content, and technical improvements of the PlayStation 5 version. It sold over 6.5 million units by July 2021.",
+      "releaseDate": "2020-11-11T23:00:00.000Z",
+      "comments": [],
+      "id": 12
     },
     {
-      "id": 12,
       "libelle": "The Last of Us",
+      "category": "Game",
       "price": "130",
-      "description": "",
-      "category": "Game",
-      "platform": "PS5",
-      "availability": true,
       "photo": "assets/TLOU.png",
+      "platform": "PS5",
       "manufacture": "Naughty Dog",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "Ismail",
-          "message": "nice"
-        }
-      ]
+      "availability": true,
+      "description": "The Last of Us Part I is a 2022 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment. A remake of the 2013 game The Last of Us, it features revised gameplay, including enhanced combat and exploration, and expanded accessibility options. The single-player story follows Joel, who is tasked with escorting the young Ellie across a post-apocalyptic United States and defend against cannibalistic creatures infected by a mutated strain of the Cordyceps fungus. The game includes the expansion The Last of Us: Left Behind, a single-player campaign following Ellie and her best friend Riley. The original game's online multiplayer mode is omitted.\n\nDevelopment was led by game director Matthew Gallant and creative director Shaun Escayg, who replaced original directors Bruce Straley and Neil Druckmann, respectively. The game was rebuilt to take advantage of updated hardware, requiring new animations, art direction, and character models to align with the vision of the original game's development team. The visual departments analyzed the original cutscenes and narrative beats to identify crucial storylines and their original direction and purpose. The team expanded upon the gameplay, technology, and accessibility features of The Last of Us Part II (2020), using its game engine and building upon it with the updated technology. The cutscenes feature audio descriptions, for which the developers collaborated with Descriptive Video Works. The game supports 3D audio, as well as the haptic feedback and adaptive triggers of the DualSense controller.\n\nFollowing several leaks, the game was announced in June 2022 and released for PlayStation 5 on September 2; a Windows version is in development. It received positive reviews, with praise for its graphical enhancements, facial animations, artificial intelligence, and its added accessibility, audio, and controller options.",
+      "releaseDate": "2022-09-01T23:00:00.000Z",
+      "comments": [],
+      "id": 39
     },
     {
-      "id": 13,
       "libelle": "Garidians of the galaxies",
-      "price": "100",
-      "description": "",
       "category": "Game",
-      "platform": "PS5",
-      "availability": true,
+      "price": "100",
       "photo": "assets/got.png",
+      "platform": "PS5",
       "manufacture": "Sony",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
+      "availability": false,
+      "description": "Marvel's Guardians of the Galaxy is a 2021 action-adventure game developed by Eidos-Montréal and published by Square Enix's European subsidiary. Based on the Marvel Comics superhero team Guardians of the Galaxy, the game was released for Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on October 26, 2021.\n\nMarvel's Guardians of the Galaxy received favorable reviews from critics, with praise for its narrative, presentation, and characters, but some criticism for its combat. However, the game failed to meet sales expectations of publisher Square Enix.",
+      "releaseDate": "2021-10-25T23:00:00.000Z",
+      "comments": [],
+      "id": 13
     },
     {
-      "id": 14,
       "libelle": "Ghost of Tsushima",
-      "price": "100",
-      "description": "",
       "category": "Game",
-      "platform": "PS5",
-      "availability": true,
+      "price": "100",
       "photo": "assets/GOS.png",
-      "manufacture": "Sucker Punch Productions",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "libelle": "Need for Speed Heat",
-      "price": "100",
-      "description": "",
-      "category": "Game",
-      "platform": "PS4",
-      "availability": true,
-      "photo": "assets/nfs.png",
-      "manufacture": "Ghost",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "libelle": "FIFA23",
-      "price": "100",
-      "description": "",
-      "category": "Game",
-      "platform": "PS4",
-      "availability": true,
-      "photo": "assets/fifa.png",
-      "manufacture": "EA",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "libelle": "BATTLEFIELD 2042",
-      "price": "100",
-      "description": "",
-      "category": "Game",
-      "platform": "Xbox Series X",
-      "availability": true,
-      "photo": "assets/battlefield.png",
-      "manufacture": "Dice",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "libelle": "Gotham Knights",
-      "price": "120",
-      "description": "",
-      "category": "Game",
-      "platform": "Xbox Series X",
-      "availability": true,
-      "photo": "assets/goth.png",
-      "manufacture": "DC",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "libelle": "Saints Row",
-      "price": "90",
-      "description": "",
-      "category": "Game",
-      "platform": "PS4",
-      "availability": true,
-      "photo": "assets/sr.png",
-      "manufacture": "Volitition",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "libelle": "Xbox Series X",
-      "price": "1500",
-      "description": "",
-      "category": "Console",
-      "platform": "Xbox Series X",
-      "availability": false,
-      "photo": "assets/xbox series x.png",
-      "manufacture": "Microsoft",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "libelle": "TAD The Lost Explorer",
-      "price": "80",
-      "description": "",
-      "category": "Game",
-      "platform": "PS4",
-      "availability": true,
-      "photo": "assets/tad.png",
-      "manufacture": "Selectar Play",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "libelle": "Elden Ring",
-      "price": "120",
-      "description": "",
-      "category": "Game",
-      "platform": "Xbox Series X",
-      "availability": false,
-      "photo": "assets/eld.png",
-      "manufacture": "FromSoftware",
-      "releaseDate": "",
-      "comments": [
-        {
-          "name": "user",
-          "message": ""
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "libelle": "Avengers",
-      "price": "120",
-      "description": "",
-      "category": "Game",
       "platform": "PS5",
-      "availability": false,
-      "photo": "assets/av.png",
-      "manufacture": "Marvel",
-      "releaseDate": "",
+      "manufacture": "Sucker Punch Productions",
+      "availability": true,
+      "description": "Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan. Jin must choose between following the warrior code to fight honorably, or using practical but dishonorable methods of repelling the Mongols with minimal casualties. The game features a large open world which can be explored either on foot or on horseback. When facing enemies, the player can choose to engage in a direct confrontation using Jin's katana or to become a legendary warrior known as \"the Ghost\" by using stealth tactics to assassinate opponents. A multiplayer mode titled Ghost of Tsushima: Legends was released in October 2020 and made available separately in September 2021.\n\nSucker Punch began developing the game after the release of Infamous: First Light in 2014, as the studio wanted to move on from the Infamous franchise to create a game with a heavy emphasis on melee combat. The studio collaborated with Japan Studio and visited Tsushima Island twice to ensure that the game was as culturally and historically authentic as possible. The team was heavily inspired by samurai cinema, particularly films directed by Akira Kurosawa, as well as the comic book series Usagi Yojimbo. The game's landscape and minimalistic art style were influenced by Shadow of the Colossus, and locations in the game were designed to be \"the perfect photographer's dream\". While the in-game landmass is similar in shape to Tsushima Island, the team did not intend to create a one-to-one recreation. Ilan Eshkeri and Shigeru Umebayashi composed the game's soundtrack.\n\nThe game was released for PlayStation 4 in July 2020, and an expanded version for PlayStation 4 and PlayStation 5, subtitled Director's Cut and featuring the Iki Island expansion, was released in August 2021. The game received positive reviews upon release, with critics praising the game's melee combat, story, characters, performances, and music, though it received some criticism for its implementations of stealth gameplay and open world structure. The game was a commercial success, selling more than 9.73 million copies by July 2022 and was one of Sony's fastest-selling original games. It was nominated for several end-of-the-year awards, including Game of the Year at The Game Awards 2020. A film adaptation is in development as of 2022.",
+      "releaseDate": "2021-08-19T23:00:00.000Z",
       "comments": [
         {
-          "name": "user",
-          "message": ""
+          "name": "omar",
+          "message": "0"
         }
-      ]
+      ],
+      "id": 14
     },
     {
-      "id": 23,
-      "libelle": "BloodBorne",
-      "price": "40",
-      "description": "",
+      "libelle": "Need for Speed Heat",
       "category": "Game",
+      "price": "100",
+      "photo": "assets/nfs.png",
       "platform": "PS4",
+      "manufacture": "Ghost",
       "availability": false,
-      "photo": "assets/blood.png",
-      "manufacture": "FromSoftware",
-      "releaseDate": "",
+      "description": "Need for Speed Heat (stylised as NFS Heat) is a 2019 racing video game developed by Ghost Games and published by Electronic Arts for Microsoft Windows, PlayStation 4 and Xbox One. It is the twenty-fourth instalment in the Need for Speed series and commemorates the series' 25th anniversary. The game received mixed reviews from critics, who mostly found the game to be an improvement over the 2015 Need for Speed reboot and Payback but not enough to be a full return to form for the franchise.\n\nHeat was Ghost Games' final game both for the Need for Speed franchise and as a lead developer. In February 2020, EA shifted development of the franchise back to Criterion Games—the developers of the Burnout series, Need for Speed: Hot Pursuit (2010) and Need for Speed: Most Wanted (2012)—and reduced Ghost Games to an engineering studio for the Frostbite engine, reverting their name back to EA Gothenburg. The game will be followed by Need for Speed Unbound which is scheduled to be released in December 2022.",
+      "releaseDate": "2019-11-07T23:00:00.000Z",
+      "comments": [],
+      "id": 15
+    },
+    {
+      "libelle": "Xbox One X Gears 5 Edition",
+      "category": "Console",
+      "price": 1000,
+      "photo": "assets/xboxX.png",
+      "platform": "Xbox One",
+      "manufacture": "Microsoft",
+      "availability": true,
+      "description": "The Xbox One X, code named Project Scorpio, is the fifth video game console made by Microsoft, succeeding both the Xbox One and Xbox One S. It was announced at E3 on June 11th 2017. It was released on November 7th 2017. The Xbox One X was made with better hardware for 4k resolution screens. This console has 6 Teraflops of graphical processing power, making it the most powerful console to date. It also has 12 gigabytes of GDDR5 RAM, with 9 being available to games and the other 3 for multitasking. This new upgrade in RAM allows for data transfer speeds of up to 326GB/second. Xbox One X works with all Xbox One software and accessories and has the same 2 USB 3.0 ports on the back and 1 USB 3.0 port on the front, now moved to the right side.\n\nThis is Limited Edition Xbox One X featuring a game developed by Microsoft : Gears of War 5.",
+      "releaseDate": "2017-11-06T23:00:00.000Z",
+      "comments": [],
+      "id": 45
+    },
+    {
+      "libelle": "FIFA23",
+      "category": "Game",
+      "price": "100",
+      "photo": "assets/fifa.png",
+      "platform": "PS4",
+      "manufacture": "EA",
+      "availability": false,
+      "description": "FIFA 23 is a football simulation video game published by Electronic Arts. It is the 30th installment in the FIFA series that is developed by EA Sports, and the final installment under the FIFA banner, and released worldwide on 30 September 2022 for PC, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S and Google Stadia. Players who pre-ordered the Ultimate Edition, however, received three days of early access and were able to play the game from 27 September.\n\nThe game is the final under the partnership between EA and FIFA. Future football games by EA without the inclusion of the FIFA name are set to be named under the banner of EA Sports FC.",
+      "releaseDate": "2022-09-29T23:00:00.000Z",
       "comments": [
         {
-          "name": "user",
-          "message": ""
+          "name": "Iyad",
+          "message": "good game"
         }
-      ]
+      ],
+      "id": 16
+    },
+    {
+      "libelle": "BATTLEFIELD 2042",
+      "category": "Game",
+      "price": "100",
+      "photo": "assets/battlefield.png",
+      "platform": "Xbox Series X",
+      "manufacture": "Dice",
+      "availability": true,
+      "description": "Battlefield 2042 is a first-person shooter, developed by DICE and published by Electronic Arts. It is the twelfth main installment in the Battlefield series and was released on November 19, 2021 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S. Unlike previous games in the series, Battlefield 2042 is solely multiplayer and does not have a single-player campaign. It features support for cross-platform play, a first in the series. Similar to its predecessors, Battlefield 2042 is a multiplayer-focused first-person shooter. As the game is set in the near future, it features futuristic weapons and gadgets like deployable turrets and drones, as well as vehicles that players can control.",
+      "releaseDate": "2021-11-18T23:00:00.000Z",
+      "comments": [],
+      "id": 17
+    },
+    {
+      "libelle": "Xbox Series S",
+      "category": "Console",
+      "price": 1100,
+      "photo": "assets/xboxs.png",
+      "platform": "Xbox Series",
+      "manufacture": "Microsoft",
+      "availability": true,
+      "description": "The Xbox Series S is a video game console that was released alongside the Xbox Series X as a cheaper, all digital alternative on November 10, 2020.\n\nUnlike the Xbox Series X, the Series S does not include a disc drive, making the console all-digital just like the Xbox One S All-Digital Edition.\n\nThe console includes almost all of the same features as the Xbox Series X. However the console is not as powerful as the Series X and can only play games at 1440p at 60 FPS with some games supporting up to 120 FPS.",
+      "releaseDate": "2020-11-09T23:00:00.000Z",
+      "comments": [],
+      "id": 46
+    },
+    {
+      "libelle": "Gotham Knights",
+      "category": "Game",
+      "price": "120",
+      "photo": "assets/goth.png",
+      "platform": "Xbox Series X",
+      "manufacture": "DC",
+      "availability": false,
+      "description": "Gotham Knights is an action role-playing game developed by WB Games Montréal and published by Warner Bros. Interactive Entertainment. Inspired by the Batman: Gotham Knights comic series based on the DC Comics character Batman and his supporting cast, the game focuses on the characters Nightwing, Batgirl, Robin, and Red Hood as they attempt to restore justice to Gotham City during a period of decline in the immediate aftermath of Batman's death. While investigating the events that led to their mentor's demise, the heroes become embroiled in an ancient conflict between two secret organizations fighting for control of Gotham: the Court of Owls and the League of Shadows.\n\nGameplay is presented from the third-person perspective with a primary focus on using each playable character's traversal and combat abilities to defeat enemies and explore the environment. Players can freely move around Gotham City, interacting with characters, undertaking missions, and gaining experience points and other resources to level up their characters and equipment. Outside of the story, players are able to complete side missions to unlock additional content and collectible items. A cooperative online multiplayer mode is also included, allowing two players to play through the single-player campaign together while progressing in their own game.\n\nFirst announced at DC FanDome in August 2020, Gotham Knights was released on October 21, 2022, for Microsoft Windows, PlayStation 5, and Xbox Series X/S.",
+      "releaseDate": "2022-10-20T23:00:00.000Z",
+      "comments": [],
+      "id": 18
+    },
+    {
+      "libelle": "Saints Row",
+      "category": "Game",
+      "price": "90",
+      "photo": "assets/sr.png",
+      "platform": "PS4",
+      "manufacture": "Volitition",
+      "availability": true,
+      "description": "Saints Row is an action-adventure video game developed by Volition and published by Deep Silver. It is a reboot of the Saints Row series, and the fifth main installment, following 2013's Saints Row IV. It was released on August 23, 2022 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S and Google Stadia. Set within the fictional city of Santo Ileso, loosely based on Las Vegas, the single-player story follows a group of four friends who start their own outlaw gang called The Saints, which they subsequently expand by seizing power from other criminal organizations in the city.\n\nThe game is played from a third-person perspective and its world is navigated on-foot or by vehicle. Players can fight enemies using a variety of firearms and other tools, and call in non-playable gang members to assist them. Similarly to previous Saints Row titles, players control the gang's leader, nicknamed \"the Boss\", who features highly customizable traits. Outside of the main story, players can freely explore Santo Illeso and engage in several different side activities. A cooperative online multiplayer mode is also included, allowing two players to play through the single-player campaign together while progressing in their own game.",
+      "releaseDate": "2022-08-22T23:00:00.000Z",
+      "comments": [],
+      "id": 19
+    },
+    {
+      "libelle": "Xbox Series X",
+      "category": "Console",
+      "price": "1500",
+      "photo": "assets/xbox series x.png",
+      "platform": "Xbox Series X",
+      "manufacture": "Microsoft",
+      "availability": true,
+      "description": "As with the Xbox One line, the consoles utilize an Advanced Micro Devices (AMD) CPU and GPU. Both models feature a new storage architecture based around solid-state drives to reduce loading times, support for hardware-accelerated ray-tracing and spatial audio, the ability to convert games to high-dynamic-range rendering using machine learning (Auto HDR), support for HDMI 2.1 variable refresh rate and low-latency modes, and updated controllers. Xbox Series X was designed to nominally render games in 2160p (4K resolution) at 60 frames per second (FPS). The lower-end, digital-only Xbox Series S, which has reduced specifications and does not include an optical drive, was designed to nominally render games in 1440p at 60 FPS, with support for 4K video scaling and ray tracing.\n\nXbox Series X/S are backwards-compatible with nearly all Xbox One-compatible games and accessories (including Xbox 360 and original Xbox games that were made backward-compatible with Xbox One), with the ability for games to automatically benefit from performance and visual improvements enabled by the newer hardware. At launch, Microsoft encouraged a \"soft\" transition between generations similar to PC gaming, offering the \"Smart Delivery\" framework to allow publishers to freely and automatically provide upgraded versions of Xbox One titles with optimizations for Xbox Series X/S. Publishers are not required to use Smart Delivery, and may publish Xbox Series X/S-exclusive titles if they so choose. Developers such as EA do not use Smart Delivery and prefer to sell separate Xbox One and Xbox Series X/S versions.",
+      "releaseDate": "2020-11-09T23:00:00.000Z",
+      "comments": [],
+      "id": 24
+    },
+    {
+      "libelle": "TAD The Lost Explorer",
+      "category": "Game",
+      "price": "80",
+      "photo": "assets/tad.png",
+      "platform": "PS4",
+      "manufacture": "Selectar Play",
+      "availability": false,
+      "description": "The lost explorer, Tad, is once again on a whole new adventure! A mysterious curse will take you through the cities of Veracruz, Chicago, Paris and Cairo on an epic journey to find the emerald tablet and save your friends.\n\nHave a great time with Tad and his companions in this 3D action video game, where you will face intricate puzzles, survive crazy adversities, and help your friends",
+      "releaseDate": "2022-11-15T23:00:00.000Z",
+      "comments": [],
+      "id": 20
+    },
+    {
+      "libelle": "Elden Ring",
+      "category": "Game",
+      "price": "120",
+      "photo": "assets/eld.png",
+      "platform": "Xbox Series X",
+      "manufacture": "FromSoftware",
+      "availability": true,
+      "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. The game was released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25. In the game, players control a customizable player character on a journey to repair the titular Elden Ring and become the new Elden Lord. The game is presented through a third-person perspective, with players freely roaming its interactive open world. Gameplay elements include combat using several types of weapons and magic spells, horseback riding, and crafting.\n",
+      "releaseDate": "2022-02-24T23:00:00.000Z",
+      "comments": [],
+      "id": 21
+    },
+    {
+      "libelle": "Avengers",
+      "category": "Game",
+      "price": "120",
+      "photo": "assets/av.png",
+      "platform": "PS5",
+      "manufacture": "Marvel",
+      "availability": true,
+      "description": "Marvel's Avengers is a 2020 action-adventure brawler game developed by Crystal Dynamics and published by Square Enix. Based on the Marvel Comics superhero team the Avengers, the game is mainly inspired by the Marvel Cinematic Universe's iteration of the group. Additionally, it incorporates elements from the team's comic book. The plot follows Inhuman teenager Kamala Khan, who gains superpowers during A-Day, a celebratory day for the Avengers, which ends in tragedy following a terrorist attack. Blamed for the disaster, the Avengers disband and allow science corporation A.I.M. to take their place. Five years later, when A.I.M. threatens to eliminate all Inhuman individuals, Kamala embarks on a quest to reassemble the Avengers to combat this new enemy.\n\nThe game is played from a third-person perspective and has both single-player and multiplayer modes; it features an online co-op mode, allowing players to assemble a team of heroes of their own. The initial roster consisted of Tony Stark / Iron Man, Steve Rogers / Captain America, Bruce Banner / Hulk, Thor, Natasha Romanoff / Black Widow, and Kamala Khan / Ms. Marvel, with more characters being added in free post-launch updates, which also added story expansions and new regions to be explored. Each hero possesses a variety of costume customization features, as well as the capacity to upgrade their powers and abilities using a skill tree.",
+      "releaseDate": "2021-03-17T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "sqd",
+          "message": "4774"
+        }
+      ],
+      "id": 22
+    },
+    {
+      "libelle": "BloodBorne",
+      "category": "Game",
+      "price": "40",
+      "photo": "assets/blood.png",
+      "platform": "PS4",
+      "manufacture": "FromSoftware",
+      "availability": true,
+      "description": "Bloodborne[b] is a 2015 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian-era–inspired city of Yharnam, whose inhabitants are afflicted with a blood-borne disease which transforms the residents, called Yharnamites, into horrific beasts. Attempting to find the source of the plague, the player's character unravels the city's mysteries while fighting beasts and cosmic beings.\n\nThe game is played from a third-person perspective. Players control a customizable protagonist, and the gameplay is focused on strategic weapons-based combat and exploration. Players battle varied enemies while using items such as swords and firearms, exploring different locations, interacting with non-player characters, and unravelling the city's mysteries. Bloodborne began development in 2012 under the working title of Project Beast. Bearing many similarities to the Dark Souls series of games by the same developer, Bloodborne was inspired by the literary works of authors H. P. Lovecraft and Bram Stoker and the architectural design of real-world locations in countries such as Romania, the Czech Republic and Scotland.\n\nBloodborne was released in March 2015 and received critical acclaim, with praise directed at its gameplay, particularly its high difficulty level, atmosphere, sound design, Lovecraftian themes, and interconnected world design. Some criticism was directed at its technical performance at launch, which was improved with post-release updates. An expansion adding additional content, The Old Hunters, was released in November 2015. By the end of 2015, the game had sold over two million copies worldwide. Bloodborne won several awards and has been cited as one of the greatest video games ever made. Some related media and adaptations have also been released, including a card game, board game and comic book series.",
+      "releaseDate": "2015-03-23T23:00:00.000Z",
+      "comments": [],
+      "id": 23
     },
     {
       "libelle": "Call of Duty Vanguard",
@@ -406,24 +368,24 @@
       "photo": "assets/cod.png",
       "platform": "Xbox Series X",
       "manufacture": "Activision",
-      "comments": [],
       "availability": "true",
-      "description": "type",
-      "releaseDate": "",
+      "description": "Call of Duty: Vanguard is a 2021 first-person shooter game developed by Sledgehammer Games and published by Activision. It was released on November 5 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S. It serves as the 18th installment in the overall Call of Duty series. \nVanguard establishes a storyline featuring the birth of the special forces to face an emerging threat at the end of the war during various theatres of World War II.\nVanguard's campaign features similar gameplay mechanics previously introduced in Modern Warfare, such as the player being able to mount wielded weapons to flat surfaces, interact with doors and execute takedowns. New gameplay features allow the player the ability to use a more advanced tactical approach in combat such as blind firing from behind cover, breaking through destructible environmental elements or creating new paths to complete objectives by climbing walls.",
+      "releaseDate": "2021-11-04T23:00:00.000Z",
+      "comments": [],
       "id": 25
     },
     {
-      "id": 27,
       "libelle": "God of War 3",
       "category": "Game",
       "price": 80,
       "photo": "assets/god3.png",
       "platform": "PS4",
-      "comments": [],
       "manufacture": "Santa Monica Studios",
       "availability": true,
-      "description": "god of war 3 good",
-      "releaseDate": "20/01/2010"
+      "description": "God of War III is an action-adventure hack and slash video game developed by Santa Monica Studio and published by Sony Computer Entertainment. First released for the PlayStation 3 on March 16, 2010, it is the fifth installment in the God of War series, the seventh chronologically, and the sequel to 2007's God of War II. Loosely based on Greek mythology, the game is set in ancient Greece with vengeance as its central motif. The player controls the protagonist Kratos, the former God of War, after his betrayal at the hands of his father Zeus, King of the Olympian gods. Reigniting the Great War, Kratos ascends Mount Olympus until he is abandoned by the Titan Gaia. Guided by Athena's spirit, Kratos battles monsters, gods, and Titans in a search for Pandora, without whom he cannot open Pandora's Box, defeat Zeus, and end the reign of the Olympian gods to have his revenge.\n\nThe gameplay is similar to previous installments, focusing on combo-based combat with the player's main weapon—the Blades of Exile—and secondary weapons acquired during the game. It uses quick time events, where the player acts in a timed sequence to defeat strong enemies and bosses. The player can use up to four magical attacks and a power-enhancing ability as alternative combat options, and the game features puzzles and platforming elements. Compared with previous installments, God of War III offers a revamped magic system, more enemies, new camera angles, and downloadable content.",
+      "releaseDate": "2015-07-13T23:00:00.000Z",
+      "comments": [],
+      "id": 27
     },
     {
       "libelle": "Grand Theft Auto V",
@@ -431,11 +393,11 @@
       "price": 80,
       "photo": "assets/gta.png",
       "platform": "PS4",
-      "comments": [],
       "manufacture": "Rockstar",
-      "availability": false,
-      "description": "Cool Game",
+      "availability": true,
+      "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.\n\nThe game is played from either a third-person or first-person perspective, and its world is navigated on foot and by vehicle. Players control the three lead protagonists throughout single-player and switch among them, both during and outside missions. The story is centred on the heist sequences, and many missions involve shooting and driving gameplay. A \"wanted\" system governs the aggression of law enforcement response to players who commit crimes. Grand Theft Auto Online, the game's online multiplayer mode, lets up to 30 players engage in a variety of different cooperative and competitive game modes.\n\nThe game's development began around the time of Grand Theft Auto IV's release and was shared between many of Rockstar's studios worldwide. The development team drew influence from many of their previous projects such as Red Dead Redemption and Max Payne 3 and designed the game around three lead protagonists to innovate on the core structure of its predecessors. Much of the development work constituted the open world's creation, and several team members conducted field research around California to capture footage for the design team. The game's soundtrack features an original score composed by a team of producers who collaborated over several years. It was released in September 2013 for the PlayStation 3 and Xbox 360, in November 2014 for the PlayStation 4 and Xbox One, in April 2015 for Windows, and in March 2022 for the PlayStation 5 and Xbox Series X/S.",
       "releaseDate": "2013-09-16T23:00:00.000Z",
+      "comments": [],
       "id": 28
     },
     {
@@ -445,10 +407,10 @@
       "photo": "assets/mine.png",
       "platform": "Xbox One",
       "manufacture": "Microsoft",
+      "availability": true,
+      "description": "Minecraft is a sandbox game developed by Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens \"Jeb\" Bergensten taking over development. Minecraft is the best-selling video game of all time, with over 238 million copies sold and nearly 140 million monthly active players as of 2021, and has been ported to several platforms.\n\nIn Minecraft, players explore a blocky, procedurally generated 3D world with virtually infinite terrain and may discover and extract raw materials, craft tools and items, and build structures, earthworks, and simple machines. Depending on their chosen game mode, players can fight hostile mobs, as well as cooperate with or compete against other players in the same world. Game modes include a survival mode (in which players must acquire resources to build in the world and maintain health) and a creative mode (where players have unlimited resources and access to flight). There is also a wide variety of user-generated content, such as modifications, servers, skins, texture packs, and custom maps, which add new game mechanics and possibilities.",
+      "releaseDate": "2011-11-17T23:00:00.000Z",
       "comments": [],
-      "availability": false,
-      "description": "cool game",
-      "releaseDate": "2010-06-16T23:00:00.000Z",
       "id": 29
     },
     {
@@ -482,17 +444,48 @@
       "id": 30
     },
     {
+      "libelle": "Playstation 4 Pro",
+      "category": "Console",
+      "price": 800,
+      "photo": "assets/ps4pro.png",
+      "platform": "PS4",
+      "manufacture": "Sony",
+      "availability": false,
+      "description": "The PlayStation 4 Pro is a home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February 2013, it was launched on  November 10, 2016, in North America. A console of the eighth generation, it competes with the Microsoft's Xbox One and the Nintendo's Wii U and Switch.\n\nMoving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the \"most powerful\" APU it had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and other supported devices (Remote Play), the ability to stream gameplay online or to friends, with them controlling gameplay remotely (Share Play). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes. The console also supports HDR10 High-dynamic-range video and playback of 4K resolution multimedia.\n\nThis version of the PS4 improves in-game visuals and video playback by almost doubling the GPU output.",
+      "releaseDate": "2016-11-09T23:00:00.000Z",
+      "comments": [],
+      "id": 44
+    },
+    {
       "libelle": "Dragon Ball Xenoverse 2",
       "category": "Game",
       "price": 90,
       "photo": "assets/drag.png",
       "platform": "Xbox One",
       "manufacture": "Dimps",
-      "availability": false,
-      "comments": [],
-      "description": "cool",
-      "releaseDate": "2016-10-25T23:00:00.000Z",
+      "availability": true,
+      "description": "Dragon Ball Xenoverse 2 is an action role-playing fighting game developed by Dimps and published by Bandai Namco Entertainment based on the Dragon Ball franchise, and is the sequel to the 2015 game Dragon Ball Xenoverse. It was released on October 25, 2016, for PlayStation 4 and Xbox One, and on October 27 for Microsoft Windows. In Japan, Dragon Ball Xenoverse 2 was initially only available on PlayStation 4.The game was released for the Nintendo Switch in Japan on September 7, 2017, and later released worldwide on September 22, 2017. The game was released on Stadia on December 17, 2019.\n\nThe game is very similar to its predecessor in terms of gameplay. It is primarily set in 3D battle arenas modeled after notable locations in the Dragon Ball universe, with the central hub being an expanded version of Toki-Toki City, known as Conton City. As reported by the creators of the game, Conton City is seven times larger than Toki-Toki City. Players are able to freely traverse the hub world, and in some areas are capable of flying, once they have unlocked the ability to fly. Players are also able to travel to other locations such as the Namekian Village and Frieza's ship. As in the previous games, some skills have to be learned through masters and other non-player characters, some of whom are found exclusively in those additional areas. Xenoverse 2 is the fourth Dragon Ball video game to feature character customization, and allows players to choose from five races: Humans, Saiyans, Majins, Namekians and Frieza's race, each with different strengths and weaknesses.",
+      "releaseDate": "2016-10-07T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "Amine",
+          "message": "A good dragon ball game"
+        }
+      ],
       "id": 32
+    },
+    {
+      "libelle": "Playstation 4 Slim",
+      "category": "Console",
+      "price": 600,
+      "photo": "assets/ps4_slim.png",
+      "platform": "PS4",
+      "manufacture": "Sony",
+      "availability": true,
+      "description": "The PlayStation 4 Slim is a home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February 2013, it was launched on November 15, 2013, in North America, November 29, 2013 in Europe, South America and Australia, and on February 22, 2014 in Japan. A console of the eighth generation, it competes with the Microsoft's Xbox One and the Nintendo's Wii U and Switch.\n\nMoving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the \"most powerful\" APU it had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and other supported devices (Remote Play), the ability to stream gameplay online or to friends, with them controlling gameplay remotely (Share Play). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes. The console also supports HDR10 High-dynamic-range video and playback of 4K resolution multimedia.",
+      "releaseDate": "2013-11-14T23:00:00.000Z",
+      "comments": [],
+      "id": 41
     },
     {
       "libelle": "Star Wars Battlefront 1",
@@ -501,10 +494,15 @@
       "photo": "assets/star1.png",
       "platform": "PS4",
       "manufacture": "EA",
-      "availability": "true",
-      "description": "type",
-      "comments": [],
-      "releaseDate": "2016-03-02T23:00:00.000Z",
+      "availability": false,
+      "description": "Star Wars: Battlefront is a series of first- and third-person shooter video games based on the Star Wars franchise. Players take the role of characters from the franchise in either of two opposing factions in different time periods of the Star Wars universe. The series was launched in 2004 by LucasArts with Star Wars: Battlefront, developed by Pandemic Studios for LucasArts. The game received positive reviews and sold well. In 2005 Pandemic developed a sequel, Star Wars: Battlefront II, which was also critically and commercially successful.\n\nThe games were followed by Star Wars Battlefront: Renegade Squadron (2007) and Star Wars Battlefront: Elite Squadron (2009) for handheld game consoles and Star Wars Battlefront: Mobile Squadrons (2009) for mobile devices. LucasArts made several attempts to develop a third major Battlefront game but no projects were released before The Walt Disney Company's acquisition of LucasArts. Subsequently, EA DICE acquired a license to develop a new game, titled Star Wars Battlefront which was released on November 17, 2015. A sequel, Star Wars Battlefront II, was released on November 17, 2017, and was developed by EA DICE, Criterion Games, and Motive Studio.",
+      "releaseDate": "2015-11-15T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "renice",
+          "message": "nice"
+        }
+      ],
       "id": 33
     },
     {
@@ -514,9 +512,9 @@
       "photo": "assets/grand.png",
       "platform": "PS4",
       "manufacture": "Sony",
-      "availability": false,
-      "description": "type",
-      "releaseDate": "2022-11-09T23:00:00.000Z",
+      "availability": "true",
+      "description": "Gran Turismo 7 is a 2022 sim racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment. The game is the eighth mainline installment in the Gran Turismo series. The game was announced on June 11, 2020 at the PlayStation 5 reveal event and was released on March 4, 2022 for PlayStation 4 and PlayStation 5, making it the first multi-console installment in the series.\nGran Turismo 7 features the return of the single player campaign, GT Simulation Mode. Other returning features is the return of traditional racing tracks and vehicles, Special Events, Championships, Driving School, Tuning Parts Shop, Used Cars dealership, and GT Auto while still retaining the new GT Sport Mode, Brand Central, and Discover that were introduced in Gran Turismo Sport. The player needs to progress through tasks (\"Menu Books\") from the GT Cafe to unlock features like multiplayer, and all tracks and cars.",
+      "releaseDate": "2022-03-03T23:00:00.000Z",
       "comments": [
         {
           "name": "nice",
@@ -533,35 +531,184 @@
       "platform": "PS4",
       "manufacture": "ACTIVISION",
       "availability": true,
-      "description": "...",
-      "releaseDate": "2022-12-27T23:00:00.000Z",
+      "description": "Need for Speed Payback is a racing video game developed by Ghost Games and published by Electronic Arts for Microsoft Windows, PlayStation 4 and Xbox One. It is the twenty-third installment in the Need for Speed series. The game was released worldwide on November 10, 2017, to mixed reviews from critics. The game was followed up by Need for Speed Heat, which was developer Ghost Games' last Need for Speed title as lead developer.\nNeed for Speed Payback is a racing game set in an open world environment of Fortune Valley; a fictional version of Las Vegas, Nevada. It is focused on \"action driving\" and has three playable characters (each with different sets of skills) working together to pull off action movie-like sequences. In contrast with the previous game, it also features a 24-hour day-night cycle. Unlike the 2015 Need for Speed reboot, Payback includes an offline single-player mode.\n\nPayback features a total of 74 vehicles with downloadable contents. Toyota, Scion and Ferrari are not involved in the game due to licensing issues. However, the Subaru BRZ appears in the game. Aston Martin, Audi, Buick, Jaguar, Koenigsegg, Land Rover, Mercury, Pagani, and Plymouth make their return after their absence from the 2015 installment, while Alfa Romeo, Infiniti, Mini and Pontiac were added via downloadable content.",
+      "releaseDate": "2017-11-09T23:00:00.000Z",
+      "comments": [
+        {
+          "name": "yosra",
+          "message": "nice"
+        }
+      ],
       "id": 35
+    },
+    {
+      "libelle": "Battlefield 1",
+      "category": "Game",
+      "price": 80,
+      "photo": "assets/bf1.png",
+      "platform": "ps4",
+      "manufacture": "Dice",
+      "availability": true,
+      "description": "Battlefield 1 is a first-person shooter game developed by DICE and published by Electronic Arts. It is the tenth installment in the Battlefield series and the first main entry in the series since Battlefield 4 in 2013. It was released for Microsoft Windows, PlayStation 4 and Xbox One in October 2016.\n\nBattlefield 1 received positive reviews from critics, who saw it as an improvement over the series' previous installments, Battlefield 4 and Battlefield Hardline. Most of the praise was directed towards its World War I setting, single-player campaigns, multiplayer modes, visuals, and sound design.\n\nSimilar to its predecessors, Battlefield 1 is a first-person shooter game that emphasizes teamwork. It is set in the period of World War I, and is inspired by historical events. Players can make use of World War I weapons, including bolt-action rifles, submachine guns, automatic and semi-automatic rifles, artillery, flamethrowers, and poison gas to combat opponents.Melee combat was reworked, with DICE introducing new melee weapons such as sabres, trench clubs, and shovels into the game. These melee weapons were divided into three groups: heavy, medium and light. Players can also take control of various armored vehicles, including light and heavy tanks, armored trucks, cars, torpedo boats, bi- and tri-plane aircraft, an armored train, reconnaissance vehicles, a dreadnought and an M-class zeppelin, as well as ride horses into battle.Destructible environments and weapon customization, features present in the previous games, returned in Battlefield 1 and are more dynamic.",
+      "releaseDate": "2016-10-20T23:00:00.000Z",
+      "comments": [],
+      "id": 36
+    },
+    {
+      "libelle": "Naruto Shippuden Ultimate Ninja Storm 4",
+      "category": "Game",
+      "price": 80,
+      "photo": "assets/ns.png",
+      "platform": "PS4",
+      "manufacture": "CyberConnect2",
+      "availability": true,
+      "description": "The story of NARUTO SHIPPUDEN is coming on new-gen!\n\nThe latest opus in the acclaimed STORM series is taking you on a colourful and breathtaking ride. Take advantage of the totally revamped battle system and prepare to dive into the most epic fights you’ve ever seen in the NARUTO SHIPPUDEN Ultimate Ninja STORM series!\n\nIn NARUTO SHIPPUDEN Ultimate Ninja STORM 4, a broad set of Ninja Skills will be yours to use against the fiercest foes you’ll ever encounter. Massive attacks in the form of “Ultimate Jutsus”, energetic evolutions with the “Awakening”, the inimitable shurikens & kunais and a unique playstyle for each ninja! In versus mode, rebuild legendary or create dream teams, and take advantage of all your characters’ skills by switching during the fight, thanks to the Change Leader System. Stuck against the wall during a tense battle? Use it to your advantage, run on it and try to overcome your opponent! NARUTO SHIPPUDEN Ultimate Ninja STORM 4 will also feature an online mode where gamers from all-around the world will be able to duke it out, show their extensive Ninja toolkit and stand on top of the realm!",
+      "releaseDate": "2016-02-03T23:00:00.000Z",
+      "comments": [],
+      "id": 37
+    },
+    {
+      "libelle": "Sekiro Shadow Die Twice",
+      "category": "Game",
+      "price": 70,
+      "photo": "assets/seki.png",
+      "platform": "PS4",
+      "manufacture": "FromSoftware",
+      "availability": true,
+      "description": "Sekiro: Shadows Die Twice is a 2019 action-adventure game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf, who attempts to take revenge on a samurai clan that attacked him and kidnapped his lord. It was released for PlayStation 4, Windows, and Xbox One in March 2019 and for Stadia in October 2020.\n\nThe gameplay is focused on stealth, exploration, and combat, with a particular emphasis on boss battles. The game takes place in a fictionalized Japan during the Sengoku period and makes strong references to Buddhist mythology and philosophy. While making the game, lead director Hidetaka Miyazaki wanted to create a new intellectual property  that marked a departure from the Dark Souls series of games also made by FromSoftware. The developers looked to games such as the Tenchu series for inspiration.\n\nSekiro: Shadows Die Twice is an action-adventure game played from a third-person view.Compared to FromSoftware's Dark Souls series, the game features fewer role-playing elements, lacks character creation and the ability to level up a variety of stats, and has no multiplayer elements. It does, however, include gear upgrading, a skill tree, and limited ability customization. Rather than attacking to whittle an enemy's health points, combat in Sekiro revolves around using a katana to attack their posture and balance instead, eventually leading to an opening that allows for a single killing blow.\n\nThe game also features stealth elements, allowing players to instantly eliminate some enemies if they can get in range undetected. In addition, the player character can use various tools to assist with combat and exploration, such as a grappling hook.If the player character dies, they can be revived on the spot if they have resurrection power, which is restored by defeating enemies, instead of respawning at earlier checkpoints.",
+      "releaseDate": "2019-03-21T23:00:00.000Z",
+      "comments": [],
+      "id": 40
+    },
+    {
+      "libelle": "Playstation 4",
+      "category": "Console",
+      "price": 700,
+      "photo": "assets/ps4.png",
+      "platform": "PS4",
+      "manufacture": "Sony",
+      "availability": true,
+      "description": "The PlayStation 4 Slim is a home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February 2013, it was launched on November 15, 2013, in North America, November 29, 2013 in Europe, South America and Australia, and on February 22, 2014 in Japan. A console of the eighth generation, it competes with the Microsoft's Xbox One and the Nintendo's Wii U and Switch.\n\nMoving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the \"most powerful\" APU it had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and other supported devices (Remote Play), the ability to stream gameplay online or to friends, with them controlling gameplay remotely (Share Play). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes. The console also supports HDR10 High-dynamic-range video and playback of 4K resolution multimedia.",
+      "releaseDate": "2013-11-14T23:00:00.000Z",
+      "comments": [],
+      "id": 42
+    },
+    {
+      "libelle": "Xbox one S",
+      "category": "Console",
+      "price": 600,
+      "photo": "assets/xboxO.png",
+      "platform": "Xbox One",
+      "manufacture": "Microsoft",
+      "availability": true,
+      "description": "The Xbox One S is a video game console developed and marketed by Microsoft that was released globally on August 2, 2016. The console was the first revision of the Xbox One, with the biggest differences being a slimmer design, support for 4K Ultra HD video streaming and HDR Gaming support. The console was released at a much more affordable price when compared to the standard Xbox One. The console was made available in 500GB, 1TB, 2TB variants.\n\nThe Xbox One S uses a completely redesigned look when compared to the original Xbox One. It is 40% smaller than it's predecessor and now appears in an updated robot white color. One of the USB ports is also located on the front of the console rather than the back. The Xbox One S is also a different shape, instead of a normal box shape like the original Xbox One.\n\nThe console includes all of the same ports on the backside of the console, minus the Kinect port. To use a Kinect on the Xbox One S, a separate adapter had to be purchased.",
+      "releaseDate": "2016-08-01T23:00:00.000Z",
+      "comments": [],
+      "id": 43
+    },
+    {
+      "libelle": "Control",
+      "category": "Game",
+      "price": 100,
+      "photo": "assets/con.png",
+      "platform": "Xbox One / Series",
+      "manufacture": "Remedy Entertainment",
+      "availability": true,
+      "description": "Control is an action-adventure game developed by Remedy Entertainment and published by 505 Games. The game was released in August 2019 for PlayStation 4, Windows, and Xbox One, and for PlayStation 5 and Xbox Series X/S in February 2021. A cloud-based version for the Nintendo Switch was released in October 2020, and for Stadia in July 2021. It was available on Amazon Luna in March 2022. Two paid expansions have been released.\n\nThe game revolves around the Federal Bureau of Control (FBC), a secret U.S. government agency tasked with containing and studying phenomena that violate the laws of reality. As Jesse Faden (Courtney Hope), the Bureau's new Director, the player explores the Oldest House – the FBC's paranormal headquarters – and utilizes powerful abilities in order to defeat a deadly enemy known as the Hiss, which has invaded and corrupted reality. The player gains abilities by finding Objects of Power, mundane objects like a rotary phone or a floppy disk imbued with energies from another dimension, that have been at the center of major paranormal events and since recovered by the FBC. In addition to Hope, voice work and live-action footage is provided by James McCaffrey, Matthew Porretta, and Martti Suosalo, while the band Poets of the Fall provided additional music.\n\nControl is inspired by paranormal stories about the fictional SCP Foundation created by an online collaborative wiki fiction project, based on the genre of the new weird. The environments of the Oldest House are designed in the brutalist architecture style, common for many government buildings created during the Cold War era, which served as a setting to show off the game's destructive environmental systems. The core game includes many allusions to Alan Wake, one of Remedy's prior games with similar themes of the paranormal, and Control's AWE expansion is a crossover between these two series, which Remedy said forms part of the Remedy Connected Universe. Control was one of the first games released to take advantage of real-time ray tracing built into the hardware of newer video cards.",
+      "releaseDate": "2019-08-26T23:00:00.000Z",
+      "comments": [],
+      "id": 47
+    },
+    {
+      "libelle": "Cyberpunk 2077",
+      "category": "Game",
+      "price": 120,
+      "photo": "assets/cyberX.png",
+      "platform": "Xbox One",
+      "manufacture": "CD Projekt Red",
+      "availability": true,
+      "description": "Cyberpunk 2077 is an action role-playing video game developed by CD Projekt Red and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe. Players assume the first-person perspective of a customisable mercenary known as V, who can acquire skills in hacking and machinery with options for melee and ranged combat. The story follows V's struggle as he deals with a mysterious cybernetic implant that threatens to overwrite his body with the personality and memories of a deceased celebrity only perceived by V; the two must work together if there is any hope to separate the two and save V's life.\n\nThe game was developed using the REDengine 4 by a team of around 500 people, exceeding the number that worked on the studio's previous game The Witcher 3: Wild Hunt (2015). CD Projekt launched a new division in Wrocław, Poland, and partnered with Digital Scapes, Nvidia, QLOC, and Jali Research to aid the production. Cyberpunk creator Mike Pondsmith was a consultant, and actor Keanu Reeves has a starring role. The original score was led by Marcin Przybyłowicz, featuring the contributions of several licensed artists.",
+      "releaseDate": "2020-12-09T23:00:00.000Z",
+      "comments": [],
+      "id": 48
+    },
+    {
+      "libelle": "Dragon Ball Z Kakarot",
+      "category": "Game",
+      "price": 120,
+      "photo": "assets/dbk.png",
+      "platform": "PS5",
+      "manufacture": "CyberConnect2",
+      "availability": true,
+      "description": "Dragon Ball Z: Kakarot is an open world action role playing game developed by CyberConnect2 and published by Bandai Namco Entertainment, based on the Dragon Ball franchise. It was released for PlayStation 4, Xbox One and Windows in January 2020, for Nintendo Switch in September 2021, and for Stadia in October 2021. Versions for PlayStation 5 and Xbox Series X/S are set to release in 2023. The game follows the main protagonist Goku and the Z-Fighters throughout the events of the Dragon Ball Z anime, including anime-original storylines and moments.\n\nKakarot is primarily an action role-playing game with fighting game elements. The player can battle opponents and do activities like fishing, collecting Z orbs, eating, driving in a hover car, training, and putting characters in soul emblems. The game's plot follows the progression of the anime series, as the player interacts with the surrounding world as the different playable characters. Players can explore the world and complete side quests to progress the story. The game is broken up into four storylines: the Saiyan Saga, the Frieza Saga, the Cell Saga (where the player acquires their hover car), and the Buu Saga.\n\nBonus storylines can be purchased as downloadable content; including a retelling of the Battle of Gods and the Resurrection 'F' storylines seen in Dragon Ball Super. A DLC original storyline set after the events of Dragon Ball Z: The History of Trunks, featuring Future Trunks' confrontation with Babidi to prevent Majin Buu's awakening (a scenario briefly covered in both the Super Anime and Manga), was released on June 11, 2021.\n\nThere are currently seven playable characters in Dragon Ball Z: Kakarot that the player will guide throughout the story. These include Goku, Vegeta, Gohan, Piccolo, Future Trunks, Gotenks, and Vegito. As the player progresses through the game, they will unlock new characters to play.\n\nIn addition to the playable characters, the player will be able to select two supporting characters to aid in their battle each with their own special moves. These current characters include Krillin, Yamcha, Tien Shinhan, Chiaotzu, Android 18, Goten, and Kid Trunks.\n\nThe bosses that appear in-game include Raditz, Nappa, Vegeta, Cui, Dodoria, Zarbon, Ginyu Force, Frieza, Android 19, Android 20, Android 18, Android 17, Cell, Cell Jr., Pui Pui, Yakon, Dabura, Majin Vegeta, Majin Buu, Super Buu, Kid Buu, Beerus and Mira. Bonyū , an original character designed by Dragon Ball creator Akira Toriyama for the game, also appears as a boss.",
+      "releaseDate": "2020-01-15T23:00:00.000Z",
+      "comments": [],
+      "id": 49
+    },
+    {
+      "libelle": "test",
+      "category": "Console",
+      "price": 10,
+      "photo": "ss",
+      "platform": "ghjkl",
+      "manufacture": "ghjkl",
+      "availability": false,
+      "description": "typess",
+      "releaseDate": "2022-12-19T23:00:00.000Z",
+      "comments": [],
+      "id": 50
     }
   ],
-  "signupUsers": [
+  "signupusers": [
     {
-      "fullname": "amine",
-      "email": "nice@gmail.com",
-      "password": "123",
-      "mobile": 787745878,
-      "admin": true,
+      "fullname": "Amine",
+      "email": "cute@gmail.com",
+      "password": "amineamine",
+      "mobile": 47878787,
+      "admin": false,
       "id": 1
     },
     {
-      "fullname": "notadmin",
-      "email": "wtf@gmail.com",
-      "password": "123",
-      "mobile": 47878787,
-      "admin": false,
-      "id": 2
+      "id": 2,
+      "fullname": "Farah",
+      "email": "farah@gmail.com",
+      "password": "nicenice",
+      "mobile": 74747475,
+      "admin": false
     },
     {
-      "fullname": "test",
-      "email": "test@gmail.com",
-      "password": "test",
-      "mobile": 74747475,
+      "fullname": "Goku",
+      "email": "goku@gmail.com",
+      "password": "letsdothis22",
+      "mobile": 74747748,
       "admin": false,
       "id": 3
+    },
+    {
+      "fullname": "good",
+      "email": "good@gmail.com",
+      "password": "doggo147",
+      "mobile": 12345698,
+      "admin": false,
+      "id": 4
+    },
+    {
+      "fullname": "Yosra",
+      "email": "Yosra@gmail.com",
+      "password": "55665238",
+      "mobile": 55665238,
+      "admin": false,
+      "id": 5
+    }
+  ],
+  "adminLog": [
+    {
+      "id": 1,
+      "fullname": "admin",
+      "email": "nice@gmail.com",
+      "password": "admin",
+      "mobile": 74747475,
+      "admin": false
     }
   ]
 }

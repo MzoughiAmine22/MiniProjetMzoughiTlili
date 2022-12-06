@@ -7,6 +7,8 @@
   margin-top: 70px;
   display: inline-block;
   color: black;
+  transform: scale(1);
+  transition: .4s;
  }
  .social a:hover
  {
@@ -15,4 +17,13 @@
   color: white;
  }
 
+ .noA{color:black;transition: .4s;text-decoration: none;}
+
+ .noA:hover{color:#fff;transition: .4s;}
+
+ td {
+    width: 150px;
+    text-align: center;
+    
+    padding: 30px;}
  

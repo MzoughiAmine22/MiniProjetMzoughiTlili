@@ -13,9 +13,11 @@ import { Commentaires } from 'src/app/classes/commentaires';
 })
 export class DetailedProductComponent implements OnInit {
 
+ 
   noDiv1:boolean;
   noDiv2:boolean;
   noDiv3:boolean;
+  converted: number;
   constructor(private productService:ProductService,private activatedRoute:ActivatedRoute,private cartService:CartService,private fb:FormBuilder ) { }
 
   product:Product;
@@ -24,6 +26,7 @@ export class DetailedProductComponent implements OnInit {
   comments:Commentaires[];
   commentForm:FormGroup;
   idd:number = 0;
+  convert:number;
   ngOnInit(): void 
   {
     
@@ -34,7 +37,6 @@ export class DetailedProductComponent implements OnInit {
     this.productService.getProducts().subscribe(data =>{
       this.productList=data;
     });
-
     this.commentForm=this.fb.nonNullable.group({
       name:['',Validators.required],
       message:['',Validators.required]
@@ -44,6 +46,7 @@ export class DetailedProductComponent implements OnInit {
   addtocart(item:any)
     {
       this.cartService.addtoCart(item);
+      alert('Product Added To Cart');
     }
 
 
@@ -63,6 +66,16 @@ export class DetailedProductComponent implements OnInit {
     this.noDiv3=true;
   }
 
+  convertt() {
+    this.productService
+      .getCurrency('TND','EUR')
+      .subscribe((data: any) => {
+        let money: any = this.product.price;
+        this.converted = money * data;
+      });
+  }
+
+
   addcomment()
   {
     if(this.commentForm.valid)
@@ -72,8 +85,11 @@ export class DetailedProductComponent implements OnInit {
       this.product.comments.push(this.comment);
       this.productService.putProduct(this.product,this.product.id).subscribe(data =>{
       alert('comment added');
-      console.log(data);
+      this.productService.getProduitById(this.product.id).subscribe(data =>{
+        this.product=data;
+      })
       this.commentForm.reset();
+      
     });
     }
     else

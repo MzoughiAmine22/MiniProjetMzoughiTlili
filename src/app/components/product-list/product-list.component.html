@@ -1,4 +1,4 @@
-<body style="background:url('assets/loooo.png');" >
+<div style="background:url('assets/loooo.png');" class="div1" >
     <br>
 <div class="container" #ok>
     <br>
@@ -7,7 +7,6 @@
             <button mat-button (click)="categ('')"><span class="c2" ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">category</span>ALL</span></button>
             <button mat-button (click)="categ('Game')" ><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px"  >stadia_controller</span>GAMES</span></button>
             <button mat-button (click)="categ('Console')"><span class="c2"  ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">videogame_asset</span>CONSOLES</span></button>
-          <!--  <button mat-button (click)="categ('')"><span class="c2" ><span class="material-symbols-outlined" style="position:relative;right:20px;top:5px">desktop_windows</span>MONITORS</span></button>   -->
         </div>
     </mat-toolbar>
     <br>
@@ -20,12 +19,12 @@
     <br>
 <div class="row">
     <div *ngFor="let p of filterCategory | filter:searchKey:'libelle'" class="col-3 ho"  >
-        <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
+       <app-product [prod]="p" [routerLink]="['detailPro',p.id]" ></app-product>
     </div>
 </div>
 <div style="text-align: right;">
     <button style="position: relative;bottom:10px;left:20px;height: 60px;width: 100px;" mat-raised-button (click)="pageUp()" color="primary" ><span  class="material-symbols-outlined">arrow_upward</span></button>
 </div>
 </div>
-</body>
+</div>
 

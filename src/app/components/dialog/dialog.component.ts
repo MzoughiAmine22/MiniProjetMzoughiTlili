@@ -54,12 +54,14 @@ export class DialogComponent implements OnInit {
     if(!this.editData){
     if(this.productForm.valid)
     {
-      this.proServ.addProduct(this.productForm.value).subscribe(res => {
+      this.product=this.productForm.value;
+      this.product.comments=[];
+      this.proServ.addProduct(this.product).subscribe(() => {
         alert('Added');
         this.productForm.reset();
         this.dialogRef.close('save');
       },
-        err =>{alert('Something Went Wrong')});
+        ()=>{alert('Something Went Wrong')});
     }
   }
   else
@@ -72,7 +74,7 @@ export class DialogComponent implements OnInit {
     this.product=this.productForm.value;
     this.product.comments=this.comments;
     this.proServ.putProduct(this.product,this.editData.id).subscribe(
-      res =>{
+       ()=>{
         alert('Product Updated Successfully');
         this.productForm.reset();
         this.dialogRef.close('update');
